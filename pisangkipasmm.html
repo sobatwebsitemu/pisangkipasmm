@@ -1,0 +1,1676 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pisang Kipas MM - Oleh-Oleh Khas Pekanbaru Terfavorit & Legendaris</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts: Plus Jakarta Sans & Playfair Display -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;0,800;1,600&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['"Plus Jakarta Sans"', 'sans-serif'],
+                        serif: ['"Playfair Display"', 'serif'],
+                    },
+                    colors: {
+                        brand: {
+                            50: '#fffbeb',
+                            100: '#fef3c7',
+                            200: '#fde68a',
+                            300: '#fcd34d',
+                            400: '#fbbf24',
+                            500: '#f59e0b',
+                            600: '#d97706',
+                            700: '#b45309',
+                            800: '#92400e',
+                            900: '#78350f',
+                        },
+                        taro: {
+                            50: '#faf5ff',
+                            100: '#f3e8ff',
+                            500: '#a855f7',
+                            600: '#9333ea',
+                            700: '#7e22ce',
+                            900: '#581c87',
+                        }
+                    },
+                    boxShadow: {
+                        'glow': '0 10px 30px -5px rgba(245, 158, 11, 0.35)',
+                        'glow-purple': '0 10px 30px -5px rgba(147, 51, 234, 0.35)',
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        /* Custom Scrollbar */
+        ::-webkit-scrollbar {
+            width: 10px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #fef3c7;
+        }
+        .dark ::-webkit-scrollbar-track {
+            background: #0f172a;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #f59e0b;
+            border-radius: 9999px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #d97706;
+        }
+
+        /* Floating Animation */
+        @keyframes floatSlow {
+            0%, 100% { transform: translateY(0px) rotate(0deg); }
+            50% { transform: translateY(-12px) rotate(1.5deg); }
+        }
+        .animate-float {
+            animation: floatSlow 5s ease-in-out infinite;
+        }
+        .animate-float-delayed {
+            animation: floatSlow 6s ease-in-out 2s infinite;
+        }
+
+        /* Glassmorphism */
+        .glass-nav {
+            backdrop-filter: blur(16px);
+            -webkit-backdrop-filter: blur(16px);
+        }
+
+        /* Navbar Minimize Transition */
+        #navbar {
+            transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.35s ease;
+        }
+        #navbar.nav-minimized {
+            transform: translateX(105%);
+            opacity: 0;
+            pointer-events: none;
+        }
+        #minimized-nav-pill {
+            transition: transform 0.4s cubic-bezier(0.34, 1.56, 0.64, 1), opacity 0.35s ease;
+        }
+    </style>
+</head>
+<body class="bg-amber-50/40 text-slate-800 dark:bg-slate-950 dark:text-slate-100 font-sans transition-colors duration-300 antialiased selection:bg-brand-500 selection:text-white overflow-x-hidden">
+
+    <!-- ================= NAVBAR FULL ================= -->
+    <header id="navbar" class="fixed top-0 left-0 right-0 z-50 glass-nav bg-white/90 dark:bg-slate-900/90 border-b border-amber-200/70 dark:border-slate-800 shadow-sm">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-20">
+                
+                <!-- Brand Logo -->
+                <a href="#beranda" class="flex items-center gap-3 group focus:outline-none">
+                    <div class="relative w-12 h-12 sm:w-13 sm:h-13 rounded-2xl bg-gradient-to-br from-slate-900 via-amber-950 to-sky-950 p-1 flex items-center justify-center shadow-glow group-hover:scale-105 transition-transform duration-300 border border-amber-400/50 overflow-hidden">
+                        <!-- Ambient Frozen & Golden Glow -->
+                        <div class="absolute -top-2 -right-2 w-6 h-6 bg-cyan-400/30 rounded-full blur-sm"></div>
+                        <div class="absolute -bottom-2 -left-2 w-6 h-6 bg-amber-400/30 rounded-full blur-sm"></div>
+                        <!-- Custom Detailed Pisang Kipas Frozen SVG Logo -->
+                        <svg class="w-10 h-10 sm:w-11 sm:h-11 relative z-10 drop-shadow" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <defs>
+                                <linearGradient id="bananaGold" x1="0%" y1="0%" x2="100%" y2="100%">
+                                    <stop offset="0%" stop-color="#FEF08A" />
+                                    <stop offset="50%" stop-color="#F59E0B" />
+                                    <stop offset="100%" stop-color="#B45309" />
+                                </linearGradient>
+                                <linearGradient id="crispyBatter" x1="0%" y1="100%" x2="100%" y2="0%">
+                                    <stop offset="0%" stop-color="#92400E" />
+                                    <stop offset="100%" stop-color="#FBBF24" />
+                                </linearGradient>
+                                <linearGradient id="iceCrystal" x1="0%" y1="0%" x2="100%" y2="100%">
+                                    <stop offset="0%" stop-color="#E0F2FE" />
+                                    <stop offset="50%" stop-color="#38BDF8" />
+                                    <stop offset="100%" stop-color="#0284C7" />
+                                </linearGradient>
+                            </defs>
+
+                            <!-- Icy Frost Aura Wave at Base -->
+                            <path d="M10 48 C20 56, 44 56, 54 48" stroke="url(#iceCrystal)" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="3 3" opacity="0.85"/>
+
+                            <!-- Fan Banana Slices (5 Golden Fan Blades) -->
+                            <!-- Far Left Blade -->
+                            <path d="M32 52 L11 29 C8 24, 12 17, 18 20 L32 46 Z" fill="url(#bananaGold)" stroke="#FEF3C7" stroke-width="1"/>
+                            <!-- Mid Left Blade -->
+                            <path d="M32 52 L18 19 C17 13, 23 9, 27 14 L32 46 Z" fill="url(#bananaGold)" stroke="#FEF3C7" stroke-width="1"/>
+                            <!-- Center Tall Blade -->
+                            <path d="M32 52 L27 13 C28 7, 36 7, 37 13 L32 52 Z" fill="url(#bananaGold)" stroke="#FEF3C7" stroke-width="1.2"/>
+                            <!-- Mid Right Blade -->
+                            <path d="M32 52 L37 14 C41 9, 47 13, 46 19 L32 46 Z" fill="url(#bananaGold)" stroke="#FEF3C7" stroke-width="1"/>
+                            <!-- Far Right Blade -->
+                            <path d="M32 52 L46 20 C52 17, 56 24, 53 29 L32 52 Z" fill="url(#bananaGold)" stroke="#FEF3C7" stroke-width="1"/>
+
+                            <!-- Crispy Golden Batter Base (Kipas Handle) -->
+                            <path d="M22 46 C26 43, 38 43, 42 46 L38 55 C35 57, 29 57, 26 55 Z" fill="url(#crispyBatter)" stroke="#FDE68A" stroke-width="1.2"/>
+                            <!-- Crispy Crumbs Dots -->
+                            <circle cx="15" cy="36" r="1.3" fill="#FDE047"/>
+                            <circle cx="49" cy="35" r="1.3" fill="#FDE047"/>
+                            <circle cx="32" cy="48" r="1.2" fill="#FEF08A"/>
+
+                            <!-- Frozen Snowflake Crystal Badge (Top Right Overlay) -->
+                            <g transform="translate(46, 15)">
+                                <circle cx="0" cy="0" r="9.5" fill="#0F172A" fill-opacity="0.75" stroke="#38BDF8" stroke-width="1.2"/>
+                                <path d="M0 -6.5 V6.5 M-6.5 0 H6.5 M-4.5 -4.5 L4.5 4.5 M-4.5 4.5 L4.5 -4.5" stroke="#E0F2FE" stroke-width="1.6" stroke-linecap="round"/>
+                                <circle cx="0" cy="0" r="2" fill="#38BDF8"/>
+                            </g>
+
+                            <!-- Icy Sparkle Left -->
+                            <path d="M12 14 L13.5 10 L15 14 L19 15.5 L15 17 L13.5 21 L12 17 L8 15.5 Z" fill="#7DD3FC"/>
+                        </svg>
+                    </div>
+                    <div>
+                        <span class="block font-serif font-extrabold text-lg sm:text-2xl tracking-tight text-slate-900 dark:text-white leading-none">
+                            Pisang Kipas <span class="text-brand-600 dark:text-brand-400">MM</span>
+                        </span>
+                        <span class="text-[10px] sm:text-[11px] font-bold uppercase tracking-widest text-amber-700/90 dark:text-amber-400/90 flex items-center gap-1 mt-0.5">
+                            <i class="fa-regular fa-snowflake text-sky-500 animate-spin" style="animation-duration: 8s;"></i> Oleh-Oleh Khas Pekanbaru
+                        </span>
+                    </div>
+                </a>
+
+                <!-- Desktop Navigation Links -->
+                <nav class="hidden lg:flex items-center space-x-1">
+                    <a href="#beranda" class="nav-link px-3 py-2 rounded-xl text-sm font-semibold text-slate-700 dark:text-slate-200 hover:text-brand-600 dark:hover:text-brand-400 hover:bg-amber-100/60 dark:hover:bg-slate-800 transition-all">Beranda</a>
+                    <a href="#tentang" class="nav-link px-3 py-2 rounded-xl text-sm font-semibold text-slate-700 dark:text-slate-200 hover:text-brand-600 dark:hover:text-brand-400 hover:bg-amber-100/60 dark:hover:bg-slate-800 transition-all">✨ Kenapa Wajib Coba?</a>
+                    <a href="#menu" class="nav-link px-3 py-2 rounded-xl text-sm font-semibold text-slate-700 dark:text-slate-200 hover:text-brand-600 dark:hover:text-brand-400 hover:bg-amber-100/60 dark:hover:bg-slate-800 transition-all">Menu Produk</a>
+                    <a href="#cara-saji" class="nav-link px-3 py-2 rounded-xl text-sm font-semibold text-slate-700 dark:text-slate-200 hover:text-brand-600 dark:hover:text-brand-400 hover:bg-amber-100/60 dark:hover:bg-slate-800 transition-all">Cara Saji</a>
+                    <a href="#lokasi" class="nav-link px-3 py-2 rounded-xl text-sm font-semibold text-slate-700 dark:text-slate-200 hover:text-brand-600 dark:hover:text-brand-400 hover:bg-amber-100/60 dark:hover:bg-slate-800 transition-all">Lokasi Maps</a>
+                    <a href="#kontak" class="nav-link px-3 py-2 rounded-xl text-sm font-semibold text-slate-700 dark:text-slate-200 hover:text-brand-600 dark:hover:text-brand-400 hover:bg-amber-100/60 dark:hover:bg-slate-800 transition-all">Kontak</a>
+                </nav>
+
+                <!-- Right Actions: WhatsApp Button + Dark Mode + Minimize Navbar + Mobile Hamburger -->
+                <div class="flex items-center gap-2 sm:gap-2.5">
+                    <!-- WhatsApp Order Button in Top-Right Navbar -->
+                    <a 
+                        href="https://wa.me/6285374321474?text=Halo%20Admin%20Pisang%20Kipas%20MM,%20saya%20ingin%20memesan%20Oleh-Oleh%20Khas%20Pekanbaru%20Pisang%20Kipas%20MM"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="inline-flex items-center gap-2 bg-gradient-to-r from-emerald-500 to-green-600 hover:from-emerald-600 hover:to-green-700 text-white font-extrabold text-xs sm:text-sm px-3.5 sm:px-4 py-2.5 rounded-xl shadow-md hover:shadow-lg transition-all duration-300 transform hover:-translate-y-0.5 ring-2 ring-emerald-400/30"
+                        title="Pesan Langsung via WhatsApp"
+                    >
+                        <i class="fa-brands fa-whatsapp text-base sm:text-lg"></i>
+                        <span class="hidden sm:inline">Pesan WA</span>
+                    </a>
+
+                    <!-- Dark Mode Button -->
+                    <button id="theme-toggle" type="button" aria-label="Toggle Dark Mode" class="relative p-2.5 rounded-xl bg-amber-100/80 dark:bg-slate-800 text-amber-800 dark:text-amber-300 hover:bg-amber-200 dark:hover:bg-slate-700 transition-all duration-200 focus:outline-none ring-1 ring-amber-300/60 dark:ring-slate-700" title="Ganti Mode Terang / Gelap">
+                        <i id="theme-icon-sun" class="fa-solid fa-sun text-base sm:text-lg hidden"></i>
+                        <i id="theme-icon-moon" class="fa-solid fa-moon text-base sm:text-lg"></i>
+                    </button>
+
+                    <!-- Minimize Navbar to Right Button -->
+                    <button 
+                        id="minimize-nav-btn" 
+                        type="button" 
+                        onclick="toggleMinimizeNavbar(true)" 
+                        aria-label="Minimize Navbar ke Kanan"
+                        title="Sembunyikan / Minimize Navbar ke Pojok Kanan"
+                        class="inline-flex items-center gap-1.5 px-2.5 py-2.5 rounded-xl bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-200 hover:bg-amber-100 dark:hover:bg-slate-700 hover:text-brand-600 transition-all focus:outline-none ring-1 ring-slate-200 dark:ring-slate-700 text-xs font-bold"
+                    >
+                        <i class="fa-solid fa-angles-right text-sm"></i>
+                        <span class="hidden xl:inline">Minimize</span>
+                    </button>
+
+                    <!-- Mobile Hamburger Button -->
+                    <button id="mobile-menu-btn" type="button" aria-label="Buka Menu Navigasi" aria-expanded="false" class="lg:hidden inline-flex items-center justify-center p-2.5 rounded-xl bg-slate-100 dark:bg-slate-800 text-slate-800 dark:text-slate-100 hover:bg-amber-100 dark:hover:bg-slate-700 transition-all focus:outline-none ring-1 ring-slate-200 dark:ring-slate-700">
+                        <div class="w-5 h-4 relative flex flex-col justify-between">
+                            <span id="bar-1" class="w-full h-0.5 bg-current rounded-full transition-all duration-300 origin-left"></span>
+                            <span id="bar-2" class="w-full h-0.5 bg-current rounded-full transition-all duration-300"></span>
+                            <span id="bar-3" class="w-full h-0.5 bg-current rounded-full transition-all duration-300 origin-left"></span>
+                        </div>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Mobile Hamburger Menu Dropdown -->
+        <div id="mobile-menu" class="lg:hidden hidden border-t border-amber-200/70 dark:border-slate-800 bg-white/95 dark:bg-slate-900/95 glass-nav transition-all duration-300">
+            <div class="px-4 pt-4 pb-6 space-y-2">
+                <a href="#beranda" class="mobile-nav-link flex items-center gap-3 px-4 py-3 rounded-xl font-semibold text-slate-800 dark:text-slate-100 hover:bg-amber-100/80 dark:hover:bg-slate-800 transition-colors">
+                    <i class="fa-solid fa-house text-brand-500 w-5 text-center"></i> Beranda
+                </a>
+                <a href="#tentang" class="mobile-nav-link flex items-center gap-3 px-4 py-3 rounded-xl font-semibold text-slate-800 dark:text-slate-100 hover:bg-amber-100/80 dark:hover:bg-slate-800 transition-colors">
+                    <i class="fa-solid fa-wand-magic-sparkles text-brand-500 w-5 text-center"></i> ✨ Kenapa Wajib Coba?
+                </a>
+                <a href="#menu" class="mobile-nav-link flex items-center gap-3 px-4 py-3 rounded-xl font-semibold text-slate-800 dark:text-slate-100 hover:bg-amber-100/80 dark:hover:bg-slate-800 transition-colors">
+                    <i class="fa-solid fa-utensils text-brand-500 w-5 text-center"></i> Menu Oleh-Oleh Frozen
+                </a>
+                <a href="#cara-saji" class="mobile-nav-link flex items-center gap-3 px-4 py-3 rounded-xl font-semibold text-slate-800 dark:text-slate-100 hover:bg-amber-100/80 dark:hover:bg-slate-800 transition-colors">
+                    <i class="fa-solid fa-fire-burner text-brand-500 w-5 text-center"></i> Cara Penyajian
+                </a>
+                <a href="#lokasi" class="mobile-nav-link flex items-center gap-3 px-4 py-3 rounded-xl font-semibold text-slate-800 dark:text-slate-100 hover:bg-amber-100/80 dark:hover:bg-slate-800 transition-colors">
+                    <i class="fa-solid fa-map-location-dot text-brand-500 w-5 text-center"></i> Lokasi & Titik Koordinat Maps
+                </a>
+                <a href="#kontak" class="mobile-nav-link flex items-center gap-3 px-4 py-3 rounded-xl font-semibold text-slate-800 dark:text-slate-100 hover:bg-amber-100/80 dark:hover:bg-slate-800 transition-colors">
+                    <i class="fa-solid fa-headset text-brand-500 w-5 text-center"></i> Kontak & Sosial Media
+                </a>
+
+                <div class="pt-3 border-t border-slate-200 dark:border-slate-800 flex flex-col sm:flex-row gap-2.5">
+                    <button onclick="orderDirectWA('Oleh-Oleh Khas Pekanbaru Pisang Kipas Frozen & Ubi Frozen')" class="flex-1 flex items-center justify-center gap-2 bg-emerald-600 hover:bg-emerald-700 text-white font-bold py-3 px-4 rounded-xl shadow-md transition-all">
+                        <i class="fa-brands fa-whatsapp text-lg"></i>
+                        <span>Chat & Pesan via WhatsApp</span>
+                    </button>
+                    <button onclick="toggleMinimizeNavbar(true)" class="flex items-center justify-center gap-2 bg-slate-200 dark:bg-slate-800 text-slate-700 dark:text-slate-200 font-bold py-3 px-4 rounded-xl transition-all">
+                        <i class="fa-solid fa-angles-right"></i>
+                        <span>Minimize Navbar ke Kanan</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- ================= MINIMIZED NAVBAR FLOATING PILL (DOCKED AT TOP-RIGHT CORNER) ================= -->
+    <div 
+        id="minimized-nav-pill" 
+        class="fixed top-4 right-4 z-50 flex items-center gap-2 p-2 rounded-2xl glass-nav bg-white/95 dark:bg-slate-900/95 border-2 border-amber-300 dark:border-slate-700 shadow-2xl translate-x-[130%] opacity-0 pointer-events-none"
+    >
+        <!-- Quick WhatsApp Order Button inside Minimized Pill -->
+        <a 
+            href="https://wa.me/6285374321474?text=Halo%20Admin%20Pisang%20Kipas%20MM,%20saya%20ingin%20memesan%20Oleh-Oleh%20Khas%20Pekanbaru%20Pisang%20Kipas%20MM"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="inline-flex items-center gap-1.5 bg-gradient-to-r from-emerald-500 to-green-600 hover:from-emerald-600 hover:to-green-700 text-white font-extrabold text-xs px-3.5 py-2.5 rounded-xl shadow-md transition-all"
+            title="Pesan Langsung via WhatsApp"
+        >
+            <i class="fa-brands fa-whatsapp text-base"></i>
+            <span>Pesan WA</span>
+        </a>
+
+        <!-- Expand / Restore Navbar Button -->
+        <button 
+            type="button" 
+            onclick="toggleMinimizeNavbar(false)" 
+            class="inline-flex items-center gap-1.5 bg-gradient-to-r from-brand-500 to-amber-600 hover:from-brand-600 hover:to-amber-700 text-white font-extrabold text-xs px-3.5 py-2.5 rounded-xl shadow-md transition-all"
+            title="Buka Kembali Navbar"
+        >
+            <i class="fa-solid fa-angles-left"></i>
+            <span>Buka Menu</span>
+        </button>
+    </div>
+
+    <!-- ================= HERO SECTION (OLEH-OLEH KHAS PEKANBARU) ================= -->
+    <section id="beranda" class="relative pt-28 pb-16 md:pt-36 md:pb-24 overflow-hidden">
+        <!-- Decorative Background Blobs -->
+        <div class="absolute top-12 left-1/2 -translate-x-1/2 w-[95vw] max-w-6xl h-96 bg-gradient-to-tr from-amber-300/30 via-yellow-200/20 to-purple-300/25 dark:from-amber-600/15 dark:via-amber-500/10 dark:to-purple-700/15 rounded-full blur-3xl -z-10 pointer-events-none"></div>
+
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+                
+                <!-- Left Column: Hero Text -->
+                <div class="lg:col-span-7 text-center lg:text-left space-y-6">
+                    <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-amber-100/90 dark:bg-amber-950/70 border border-amber-300/70 dark:border-amber-700/60 text-amber-900 dark:text-amber-300 text-xs sm:text-sm font-bold shadow-sm">
+                        <span class="flex h-2.5 w-2.5 relative">
+                            <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-brand-500 opacity-75"></span>
+                            <span class="relative inline-flex rounded-full h-2.5 w-2.5 bg-brand-600"></span>
+                        </span>
+                        <span> IKON OLEH-OLEH KHAS PEKANBARU RIAU TERFAVORIT</span>
+                    </div>
+
+                    <h1 class="font-serif font-extrabold text-4xl sm:text-5xl lg:text-6xl text-slate-900 dark:text-white leading-[1.15] tracking-tight">
+                        Buah Tangan Wajib dari Bumi Lancang Kuning: <br class="hidden sm:inline" />
+                        <span class="text-transparent bg-clip-text bg-gradient-to-r from-brand-600 via-amber-500 to-purple-600 dark:from-brand-400 dark:via-amber-300 dark:to-purple-400">
+                            Pisang Kipas MM
+                        </span>
+                    </h1>
+
+                    <p class="text-base sm:text-lg text-slate-600 dark:text-slate-300 max-w-2xl mx-auto lg:mx-0 leading-relaxed">
+                        Belum lengkap berkunjung ke <strong>Kota Bertuah Pekanbaru</strong> tanpa membawa pulang <strong>Pisang Kipas MM</strong>! Dikemas dengan teknologi <em>vacuum frozen</em> yang aman dibawa perjalanan jauh maupun pesawat. Nikmati kelezatan <strong class="text-amber-700 dark:text-amber-400">Pisang Kipas Frozen</strong> dan <strong class="text-purple-700 dark:text-purple-400">Ubi Frozen</strong> khas Pekanbaru yang krispi di luar dan manis legit di dalam!
+                    </p>
+
+                    <!-- Hero CTA Buttons -->
+                    <div class="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4 pt-2">
+                        <a href="#menu" class="w-full sm:w-auto inline-flex items-center justify-center gap-3 px-8 py-4 rounded-2xl bg-gradient-to-r from-brand-500 to-amber-600 hover:from-brand-600 hover:to-amber-700 text-white font-extrabold text-base shadow-glow hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
+                            <i class="fa-solid fa-gift"></i>
+                            <span>Pilih Paket Oleh-Oleh</span>
+                        </a>
+                        <button type="button" onclick="orderDirectWA('Oleh-Oleh Khas Pekanbaru Pisang Kipas MM')" class="w-full sm:w-auto inline-flex items-center justify-center gap-3 px-7 py-4 rounded-2xl bg-white dark:bg-slate-900 hover:bg-amber-50 dark:hover:bg-slate-800 text-slate-800 dark:text-slate-100 font-bold text-base border border-slate-200 dark:border-slate-700 shadow-sm transition-all duration-300">
+                            <i class="fa-brands fa-whatsapp text-emerald-500 text-xl"></i>
+                            <span>Pesan Oleh-Oleh via WA</span>
+                        </button>
+                    </div>
+
+                    <!-- Trust Indicators -->
+                    <div class="pt-6 grid grid-cols-3 gap-4 border-t border-amber-200/70 dark:border-slate-800 max-w-lg mx-auto lg:mx-0">
+                        <div class="text-center lg:text-left">
+                            <p class="font-extrabold text-2xl sm:text-3xl text-slate-900 dark:text-white">100%</p>
+                            <p class="text-xs sm:text-sm text-slate-500 dark:text-slate-400 font-medium">Khas Asli Pekanbaru</p>
+                        </div>
+                        <div class="text-center lg:text-left">
+                            <p class="font-extrabold text-2xl sm:text-3xl text-brand-600 dark:text-brand-400">Aman</p>
+                            <p class="text-xs sm:text-sm text-slate-500 dark:text-slate-400 font-medium">Dibawa ke Luar Kota</p>
+                        </div>
+                        <div class="text-center lg:text-left">
+                            <p class="font-extrabold text-2xl sm:text-3xl text-purple-600 dark:text-purple-400">5 Menit</p>
+                            <p class="text-xs sm:text-sm text-slate-500 dark:text-slate-400 font-medium">Langsung Siap Saji</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Column: Visual Showcase -->
+                <div class="lg:col-span-5 relative">
+                    <div class="relative mx-auto max-w-md lg:max-w-none">
+                        <!-- Main Hero Card Image -->
+                        <div class="relative rounded-3xl overflow-hidden shadow-2xl border-4 border-white dark:border-slate-800 animate-float">
+                            <img 
+                                src="https://images.unsplash.com/photo-1603532648955-039310d9ed75?auto=format&fit=crop&w=1000&q=85" 
+                                onerror="this.onerror=null;this.src='https://placehold.co/800x600/f59e0b/ffffff?text=Oleh-Oleh+Pisang+Kipas+MM';"
+                                alt="Pisang Kipas Goreng Crispy Khas Pekanbaru" 
+                                class="w-full h-[360px] sm:h-[420px] object-cover transform hover:scale-105 transition-transform duration-700"
+                            >
+                            <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/25 to-transparent flex flex-col justify-end p-6">
+                                <span class="inline-block w-fit px-3 py-1 rounded-full bg-brand-500 text-white text-xs font-bold mb-2">OLEH-OLEH #1 PEKANBARU</span>
+                                <h2 class="text-white font-serif font-bold text-2xl">Pisang Kipas Crispy MM</h2>
+                                <p class="text-amber-100 text-sm">Buah tangan kebanggaan Riau dengan balutan tepung rahasia MM yang super krispi.</p>
+                            </div>
+                        </div>
+
+                        <!-- Secondary Floating Card (Ubi Frozen) -->
+                        <div class="hidden sm:flex items-center gap-3.5 bg-white/95 dark:bg-slate-900/95 glass-nav p-3.5 rounded-2xl shadow-xl border border-purple-200 dark:border-slate-700 absolute -bottom-6 -left-6 max-w-xs animate-float-delayed">
+                            <img 
+                                src="https://images.unsplash.com/photo-1596040033229-a9821ebd058d?auto=format&fit=crop&w=400&q=80" 
+                                onerror="this.onerror=null;this.src='https://placehold.co/200x200/9333ea/ffffff?text=Ubi+Frozen';"
+                                alt="Ubi Frozen Khas Pekanbaru" 
+                                class="w-16 h-16 rounded-xl object-cover flex-shrink-0"
+                            >
+                            <div>
+                                <span class="text-[11px] font-bold uppercase tracking-wider text-purple-600 dark:text-purple-400">Favorit Wisatawan</span>
+                                <h3 class="font-bold text-sm text-slate-900 dark:text-white">Ubi Frozen MM</h3>
+                                <p class="text-xs text-slate-500 dark:text-slate-400">Oleh-oleh manis alami, lumer & garing!</p>
+                            </div>
+                        </div>
+
+                        <!-- Floating Badge Top Right -->
+                        <div class="bg-emerald-600 text-white px-4 py-2.5 rounded-2xl shadow-lg absolute -top-4 -right-3 sm:-right-5 flex items-center gap-2 border-2 border-white dark:border-slate-800">
+                            <i class="fa-solid fa-plane-departure"></i>
+                            <div class="text-left">
+                                <p class="text-[10px] uppercase tracking-wider font-semibold text-emerald-100 leading-none">Siap Bawa Pulang</p>
+                                <p class="text-xs font-extrabold">Vacuum Travel Pack</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= TENTANG & KEUNGGULAN OLEH-OLEH SECTION ================= -->
+    <section id="tentang" class="py-16 md:py-24 bg-white dark:bg-slate-900/60 border-y border-amber-100 dark:border-slate-800/80">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-14">
+                <span class="text-brand-600 dark:text-brand-400 font-bold text-sm uppercase tracking-widest">Kebanggaan Kuliner Kota Bertuah</span>
+                <h2 class="font-serif font-extrabold text-3xl sm:text-4xl text-slate-900 dark:text-white mt-2">
+                    Mengapa Pisang Kipas MM Jadi Oleh-Oleh Khas Pekanbaru Paling Dicari?
+                </h2>
+                <p class="text-slate-600 dark:text-slate-400 mt-3 text-base">
+                    Diracik dengan resep warisan khas Melayu Riau, <strong>Pisang Kipas MM</strong> menghadirkan cita rasa autentik yang praktis dibawa pulang sebagai buah tangan istimewa untuk keluarga maupun kolega di luar kota.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                <!-- Feature 1 -->
+                <div class="p-6 rounded-3xl bg-amber-50/70 dark:bg-slate-800/70 border border-amber-200/60 dark:border-slate-700/70 hover:shadow-lg transition-all duration-300 group">
+                    <div class="w-14 h-14 rounded-2xl bg-brand-500 text-white flex items-center justify-center text-2xl shadow-md group-hover:scale-110 transition-transform mb-5">
+                        <i class="fa-solid fa-award"></i>
+                    </div>
+                    <h3 class="font-bold text-lg text-slate-900 dark:text-white mb-2">Cita Rasa Khas Pekanbaru</h3>
+                    <p class="text-sm text-slate-600 dark:text-slate-300 leading-relaxed">
+                        Menggunakan pisang kepok kuning pilihan dan ubi kualitas terbaik khas Riau yang terkenal manis legit dengan kremesan renyah tiada duanya.
+                    </p>
+                </div>
+
+                <!-- Feature 2 -->
+                <div class="p-6 rounded-3xl bg-amber-50/70 dark:bg-slate-800/70 border border-amber-200/60 dark:border-slate-700/70 hover:shadow-lg transition-all duration-300 group">
+                    <div class="w-14 h-14 rounded-2xl bg-purple-600 text-white flex items-center justify-center text-2xl shadow-md group-hover:scale-110 transition-transform mb-5">
+                        <i class="fa-solid fa-suitcase-rolling"></i>
+                    </div>
+                    <h3 class="font-bold text-lg text-slate-900 dark:text-white mb-2">Aman Dibawa Perjalanan Jauh</h3>
+                    <p class="text-sm text-slate-600 dark:text-slate-300 leading-relaxed">
+                        Dikemas kedap udara (<em>vacuum sealed</em>) sehingga aman masuk bagasi pesawat, mobil, atau travel tanpa takut tumpah dan tahan berbulan-bulan di freezer.
+                    </p>
+                </div>
+
+                <!-- Feature 3 -->
+                <div class="p-6 rounded-3xl bg-amber-50/70 dark:bg-slate-800/70 border border-amber-200/60 dark:border-slate-700/70 hover:shadow-lg transition-all duration-300 group">
+                    <div class="w-14 h-14 rounded-2xl bg-emerald-600 text-white flex items-center justify-center text-2xl shadow-md group-hover:scale-110 transition-transform mb-5">
+                        <i class="fa-solid fa-bolt"></i>
+                    </div>
+                    <h3 class="font-bold text-lg text-slate-900 dark:text-white mb-2">Praktis Digoreng 5 Menit</h3>
+                    <p class="text-sm text-slate-600 dark:text-slate-300 leading-relaxed">
+                        Setibanya di rumah, oleh-oleh siap digoreng hanya dalam 5 menit. Hangat, renyah, dan aromanya langsung menggugah selera seisi rumah!
+                    </p>
+                </div>
+
+                <!-- Feature 4 -->
+                <div class="p-6 rounded-3xl bg-amber-50/70 dark:bg-slate-800/70 border border-amber-200/60 dark:border-slate-700/70 hover:shadow-lg transition-all duration-300 group">
+                    <div class="w-14 h-14 rounded-2xl bg-rose-500 text-white flex items-center justify-center text-2xl shadow-md group-hover:scale-110 transition-transform mb-5">
+                        <i class="fa-solid fa-heart-circle-check"></i>
+                    </div>
+                    <h3 class="font-bold text-lg text-slate-900 dark:text-white mb-2">100% Halal & Tanpa Pengawet</h3>
+                    <p class="text-sm text-slate-600 dark:text-slate-300 leading-relaxed">
+                        Buah tangan sehat dan higienis yang cocok diberikan untuk orang tua, mertua, sahabat, maupun rekan kerja di kantor.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= MENU PRODUK SECTION ================= -->
+    <section id="menu" class="py-20 md:py-28 relative">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            
+            <!-- Section Header -->
+            <div class="text-center max-w-3xl mx-auto mb-10">
+                <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-rose-100 dark:bg-rose-950/70 text-rose-700 dark:text-rose-300 text-xs font-extrabold uppercase tracking-widest mb-3 border border-rose-200 dark:border-rose-800/60 shadow-sm">
+                    <i class="fa-solid fa-gift"></i> Paket Promo Oleh-Oleh Khas Pekanbaru
+                </div>
+                <h2 class="font-serif font-extrabold text-3xl sm:text-5xl text-slate-900 dark:text-white">
+                    Katalog Oleh-Oleh <span class="text-brand-600 dark:text-brand-400">Pisang Kipas MM</span>
+                </h2>
+                <p class="mt-4 text-slate-600 dark:text-slate-300 text-base sm:text-lg">
+                    Pilih buah tangan favorit khas Pekanbaru: tersedia <strong>3 Kategori Ukuran Pisang Kipas Frozen</strong> (<span class="text-brand-600 dark:text-brand-400 font-semibold">Mini, Normal, Jumbo</span>) dan <strong>Ubi Frozen</strong> dengan harga spesial! Klik <strong>"Hubungi Kami"</strong> untuk pesan otomatis via WhatsApp.
+                </p>
+            </div>
+
+            <!-- Category Filter Tabs -->
+            <div class="flex flex-wrap items-center justify-center gap-2.5 sm:gap-3 mb-12">
+                <button type="button" onclick="filterMenu('all')" id="tab-all" class="menu-tab active-tab px-5 py-2.5 rounded-2xl font-extrabold text-xs sm:text-sm transition-all duration-300 bg-gradient-to-r from-brand-500 to-amber-600 text-white shadow-glow">
+                    <i class="fa-solid fa-border-all mr-1.5"></i> Semua Menu Oleh-Oleh (4)
+                </button>
+                <button type="button" onclick="filterMenu('pisang')" id="tab-pisang" class="menu-tab px-5 py-2.5 rounded-2xl font-bold text-xs sm:text-sm transition-all duration-300 bg-white dark:bg-slate-900 text-slate-700 dark:text-slate-200 border border-amber-200 dark:border-slate-700 hover:border-brand-500">
+                    🍌 Kategori Pisang Kipas Frozen (3 Varian)
+                </button>
+                <button type="button" onclick="filterMenu('ubi')" id="tab-ubi" class="menu-tab px-5 py-2.5 rounded-2xl font-bold text-xs sm:text-sm transition-all duration-300 bg-white dark:bg-slate-900 text-slate-700 dark:text-slate-200 border border-purple-200 dark:border-slate-700 hover:border-purple-500">
+                    🍠 Kategori Ubi Frozen (1 Varian)
+                </button>
+            </div>
+
+            <!-- Products Flex-Wrap Centered Layout: 3 cards on top row, 1 Ubi Frozen card with identical size centered in the middle below -->
+            <div id="menu-grid" class="flex flex-wrap justify-center gap-8 max-w-7xl mx-auto">
+
+                <!-- ================= KATEGORI 1: PISANG KIPAS MINI FROZEN ================= -->
+                <article data-category="pisang" class="menu-card w-full md:w-[calc(50%-1rem)] lg:w-[calc(33.333%-1.35rem)] group bg-white dark:bg-slate-900 rounded-3xl overflow-hidden border-2 border-amber-200/80 dark:border-slate-800 shadow-xl hover:shadow-glow transition-all duration-500 flex flex-col justify-between">
+                    <div>
+                        <!-- Product Image Header -->
+                        <div class="relative h-64 sm:h-72 overflow-hidden bg-amber-100 dark:bg-slate-800">
+                            <img 
+                                src="https://images.unsplash.com/photo-1603532648955-039310d9ed75?auto=format&fit=crop&w=900&q=85" 
+                                onerror="this.onerror=null;this.src='https://placehold.co/800x600/f59e0b/ffffff?text=Pisang+Kipas+Mini+Frozen';"
+                                alt="Pisang Kipas Mini Frozen Isi 14 Pcs Oleh-Oleh Khas Pekanbaru" 
+                                class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
+                            >
+                            <div class="absolute inset-0 bg-gradient-to-t from-slate-950/85 via-slate-950/25 to-transparent"></div>
+                            
+                            <!-- Top Badges -->
+                            <div class="absolute top-4 left-4 right-4 flex items-center justify-between gap-2">
+                                <span class="px-3 py-1.5 rounded-full bg-amber-500 text-white text-[11px] font-extrabold uppercase tracking-wider shadow-md flex items-center gap-1.5">
+                                    <i class="fa-solid fa-gift"></i> Oleh-Oleh Favorit Keluarga
+                                </span>
+                                <span class="px-3 py-1.5 rounded-full bg-rose-600 text-white text-[11px] font-extrabold uppercase tracking-wider shadow-md animate-pulse">
+                                    Hemat Rp 10.000!
+                                </span>
+                            </div>
+
+                            <!-- Price Tag Overlay -->
+                            <div class="absolute bottom-4 right-4 bg-white/95 dark:bg-slate-900/95 backdrop-blur-md px-3.5 py-2 rounded-2xl shadow-lg border border-amber-200 dark:border-slate-700 text-right">
+                                <div class="flex items-center justify-end gap-1.5">
+                                    <span class="text-[10px] font-extrabold px-1.5 py-0.5 rounded bg-rose-100 dark:bg-rose-900/60 text-rose-600 dark:text-rose-300">DISKON 25%</span>
+                                    <span class="text-xs text-slate-400 line-through font-semibold">Rp 40.000</span>
+                                </div>
+                                <span class="text-xl font-extrabold text-brand-600 dark:text-brand-400">Rp 30.000 <span class="text-[11px] font-normal text-slate-500">/ pack</span></span>
+                            </div>
+
+                            <!-- Product Title on Image Bottom Left -->
+                            <div class="absolute bottom-4 left-4 right-40">
+                                <span class="text-[11px] font-bold uppercase tracking-widest text-amber-300 block">Oleh-Oleh Pekanbaru #1</span>
+                                <h3 class="font-serif font-extrabold text-xl sm:text-2xl text-white drop-shadow leading-tight">
+                                    Pisang Kipas Mini Frozen
+                                </h3>
+                            </div>
+                        </div>
+
+                        <!-- Product Content Body -->
+                        <div class="p-6">
+                            <!-- Rating & Pack Info -->
+                            <div class="flex flex-wrap items-center justify-between gap-2 pb-3.5 mb-4 border-b border-slate-100 dark:border-slate-800 text-xs">
+                                <div class="flex items-center gap-1 text-amber-500 font-bold">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <span class="text-slate-600 dark:text-slate-400 ml-1 font-medium">(4.9 • 850+ Terjual)</span>
+                                </div>
+                                <span class="px-3 py-1 rounded-lg bg-amber-100 dark:bg-amber-950/70 text-amber-900 dark:text-amber-300 font-extrabold">
+                                    📦 Isi: 14 Pcs / Pack
+                                </span>
+                            </div>
+
+                            <!-- Persuasive Marketing Copywriting (Oleh-Oleh Khas Pekanbaru) -->
+                            <p class="text-slate-600 dark:text-slate-300 text-sm leading-relaxed mb-5">
+                                <strong class="text-slate-900 dark:text-white">"Buah tangan khas Pekanbaru ukuran <em>bite-size</em> yang bikin susah berhenti ngemil!"</strong> Isi jauh lebih melimpah (<strong>14 pcs per pack</strong>) dengan balutan tepung krispi rahasia MM dan manis legit pisang pilihan Riau. Kemasannya ringkas dan praktis dimasukkan ke koper, menjadikannya <strong>oleh-oleh khas Pekanbaru paling favorit</strong> untuk dibagikan ke keluarga besar dan keponakan di rumah!
+                            </p>
+
+                            <!-- Product Highlights List -->
+                            <ul class="grid grid-cols-2 gap-2 text-xs text-slate-700 dark:text-slate-300 mb-4">
+                                <li class="flex items-center gap-1.5">
+                                    <i class="fa-solid fa-circle-check text-emerald-500"></i> Isi Melimpah (14 Pcs)
+                                </li>
+                                <li class="flex items-center gap-1.5">
+                                    <i class="fa-solid fa-circle-check text-emerald-500"></i> Praktis Masuk Koper/Bagasi
+                                </li>
+                                <li class="flex items-center gap-1.5">
+                                    <i class="fa-solid fa-circle-check text-emerald-500"></i> Cepat Matang & Super Crispy
+                                </li>
+                                <li class="flex items-center gap-1.5">
+                                    <i class="fa-solid fa-circle-check text-emerald-500"></i> Favorit Anak & Keluarga
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Product Order Footer -->
+                    <div class="px-6 pb-6 pt-3 bg-amber-50/50 dark:bg-slate-900/60 border-t border-amber-100/80 dark:border-slate-800 space-y-3">
+                        <div class="flex items-center justify-between bg-white dark:bg-slate-800 px-3.5 py-2 rounded-2xl border border-slate-200 dark:border-slate-700">
+                            <span class="text-xs font-bold text-slate-500 dark:text-slate-400 uppercase">Jumlah Pack:</span>
+                            <div class="flex items-center gap-2">
+                                <button type="button" onclick="updateQty('qty-pisang-mini', -1)" class="w-8 h-8 rounded-xl bg-amber-100 dark:bg-slate-700 text-amber-900 dark:text-white font-bold hover:bg-amber-200 transition flex items-center justify-center" aria-label="Kurangi jumlah">
+                                    <i class="fa-solid fa-minus text-xs"></i>
+                                </button>
+                                <input id="qty-pisang-mini" type="number" value="1" min="1" max="99" readonly class="w-10 text-center font-extrabold text-base bg-transparent text-slate-900 dark:text-white focus:outline-none">
+                                <button type="button" onclick="updateQty('qty-pisang-mini', 1)" class="w-8 h-8 rounded-xl bg-amber-100 dark:bg-slate-700 text-amber-900 dark:text-white font-bold hover:bg-amber-200 transition flex items-center justify-center" aria-label="Tambah jumlah">
+                                    <i class="fa-solid fa-plus text-xs"></i>
+                                </button>
+                            </div>
+                        </div>
+
+                        <button 
+                            type="button"
+                            onclick="orderProduct('Pisang Kipas Mini Frozen (Isi 14 Pcs) - Oleh-Oleh Khas Pekanbaru', 30000, 40000, 'qty-pisang-mini')"
+                            class="w-full inline-flex items-center justify-center gap-2.5 bg-gradient-to-r from-brand-500 to-amber-600 hover:from-brand-600 hover:to-amber-700 text-white font-extrabold py-3.5 px-5 rounded-2xl shadow-md hover:shadow-glow transition-all duration-300 transform hover:-translate-y-0.5"
+                        >
+                            <i class="fa-brands fa-whatsapp text-xl"></i>
+                            <span>Hubungi Kami (Pesan 30K)</span>
+                        </button>
+                    </div>
+                </article>
+
+                <!-- ================= KATEGORI 2: PISANG KIPAS NORMAL FROZEN ================= -->
+                <article data-category="pisang" class="menu-card w-full md:w-[calc(50%-1rem)] lg:w-[calc(33.333%-1.35rem)] group bg-white dark:bg-slate-900 rounded-3xl overflow-hidden border-2 border-brand-400 dark:border-brand-500/80 shadow-xl hover:shadow-glow transition-all duration-500 flex flex-col justify-between relative">
+                    <div>
+                        <!-- Product Image Header -->
+                        <div class="relative h-64 sm:h-72 overflow-hidden bg-amber-100 dark:bg-slate-800">
+                            <img 
+                                src="https://images.unsplash.com/photo-1621996346565-e3d5d6281298?auto=format&fit=crop&w=900&q=85" 
+                                onerror="this.onerror=null;this.src='https://placehold.co/800x600/d97706/ffffff?text=Pisang+Kipas+Normal+Frozen';"
+                                alt="Pisang Kipas Normal Frozen Isi 10 Pcs Oleh-Oleh Khas Pekanbaru" 
+                                class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
+                            >
+                            <div class="absolute inset-0 bg-gradient-to-t from-slate-950/85 via-slate-950/25 to-transparent"></div>
+                            
+                            <!-- Top Badges -->
+                            <div class="absolute top-4 left-4 right-4 flex items-center justify-between gap-2">
+                                <span class="px-3 py-1.5 rounded-full bg-brand-600 text-white text-[11px] font-extrabold uppercase tracking-wider shadow-md flex items-center gap-1.5">
+                                    <i class="fa-solid fa-thumbs-up"></i> Oleh-Oleh Klasik Terbaik
+                                </span>
+                                <span class="px-3 py-1.5 rounded-full bg-rose-600 text-white text-[11px] font-extrabold uppercase tracking-wider shadow-md animate-pulse">
+                                    Hemat Rp 15.000!
+                                </span>
+                            </div>
+
+                            <!-- Price Tag Overlay -->
+                            <div class="absolute bottom-4 right-4 bg-white/95 dark:bg-slate-900/95 backdrop-blur-md px-3.5 py-2 rounded-2xl shadow-lg border border-amber-200 dark:border-slate-700 text-right">
+                                <div class="flex items-center justify-end gap-1.5">
+                                    <span class="text-[10px] font-extrabold px-1.5 py-0.5 rounded bg-rose-100 dark:bg-rose-900/60 text-rose-600 dark:text-rose-300">DISKON 33%</span>
+                                    <span class="text-xs text-slate-400 line-through font-semibold">Rp 45.000</span>
+                                </div>
+                                <span class="text-xl font-extrabold text-brand-600 dark:text-brand-400">Rp 30.000 <span class="text-[11px] font-normal text-slate-500">/ pack</span></span>
+                            </div>
+
+                            <!-- Product Title on Image Bottom Left -->
+                            <div class="absolute bottom-4 left-4 right-40">
+                                <span class="text-[11px] font-bold uppercase tracking-widest text-amber-300 block">Oleh-Oleh Pekanbaru #2</span>
+                                <h3 class="font-serif font-extrabold text-xl sm:text-2xl text-white drop-shadow leading-tight">
+                                    Pisang Kipas Normal Frozen
+                                </h3>
+                            </div>
+                        </div>
+
+                        <!-- Product Content Body -->
+                        <div class="p-6">
+                            <!-- Rating & Pack Info -->
+                            <div class="flex flex-wrap items-center justify-between gap-2 pb-3.5 mb-4 border-b border-slate-100 dark:border-slate-800 text-xs">
+                                <div class="flex items-center gap-1 text-amber-500 font-bold">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <span class="text-slate-600 dark:text-slate-400 ml-1 font-medium">(5.0 • 1.4rb+ Terjual)</span>
+                                </div>
+                                <span class="px-3 py-1 rounded-lg bg-amber-100 dark:bg-amber-950/70 text-amber-900 dark:text-amber-300 font-extrabold">
+                                    📦 Isi: 10 Pcs / Pack
+                                </span>
+                            </div>
+
+                            <!-- Persuasive Marketing Copywriting (Oleh-Oleh Khas Pekanbaru) -->
+                            <p class="text-slate-600 dark:text-slate-300 text-sm leading-relaxed mb-5">
+                                <strong class="text-slate-900 dark:text-white">"Cita rasa legendaris Pekanbaru dalam ukuran kipas klasik yang selalu dirindukan!"</strong> Dibuat dari pisang kepok kuning matang pohon pilihan yang dibelah kipas sempurna berpadu dengan kremesan gurih khas MM. <strong>Buah tangan wajib khas Riau (isi 10 pcs)</strong> yang paling pas disajikan hangat untuk kerabat tercinta. <strong>Dari 45K kini cuma 30K saja!</strong>
+                            </p>
+
+                            <!-- Product Highlights List -->
+                            <ul class="grid grid-cols-2 gap-2 text-xs text-slate-700 dark:text-slate-300 mb-4">
+                                <li class="flex items-center gap-1.5">
+                                    <i class="fa-solid fa-circle-check text-emerald-500"></i> Ukuran Klasik Khas Riau
+                                </li>
+                                <li class="flex items-center gap-1.5">
+                                    <i class="fa-solid fa-circle-check text-emerald-500"></i> Pisang Kepok Manis Legit
+                                </li>
+                                <li class="flex items-center gap-1.5">
+                                    <i class="fa-solid fa-circle-check text-emerald-500"></i> Kremesan Renyah Melimpah
+                                </li>
+                                <li class="flex items-center gap-1.5">
+                                    <i class="fa-solid fa-circle-check text-emerald-500"></i> Best Value (Hemat 15K!)
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Product Order Footer -->
+                    <div class="px-6 pb-6 pt-3 bg-amber-50/50 dark:bg-slate-900/60 border-t border-amber-100/80 dark:border-slate-800 space-y-3">
+                        <div class="flex items-center justify-between bg-white dark:bg-slate-800 px-3.5 py-2 rounded-2xl border border-slate-200 dark:border-slate-700">
+                            <span class="text-xs font-bold text-slate-500 dark:text-slate-400 uppercase">Jumlah Pack:</span>
+                            <div class="flex items-center gap-2">
+                                <button type="button" onclick="updateQty('qty-pisang-normal', -1)" class="w-8 h-8 rounded-xl bg-amber-100 dark:bg-slate-700 text-amber-900 dark:text-white font-bold hover:bg-amber-200 transition flex items-center justify-center" aria-label="Kurangi jumlah">
+                                    <i class="fa-solid fa-minus text-xs"></i>
+                                </button>
+                                <input id="qty-pisang-normal" type="number" value="1" min="1" max="99" readonly class="w-10 text-center font-extrabold text-base bg-transparent text-slate-900 dark:text-white focus:outline-none">
+                                <button type="button" onclick="updateQty('qty-pisang-normal', 1)" class="w-8 h-8 rounded-xl bg-amber-100 dark:bg-slate-700 text-amber-900 dark:text-white font-bold hover:bg-amber-200 transition flex items-center justify-center" aria-label="Tambah jumlah">
+                                    <i class="fa-solid fa-plus text-xs"></i>
+                                </button>
+                            </div>
+                        </div>
+
+                        <button 
+                            type="button"
+                            onclick="orderProduct('Pisang Kipas Normal Frozen (Isi 10 Pcs) - Oleh-Oleh Khas Pekanbaru', 30000, 45000, 'qty-pisang-normal')"
+                            class="w-full inline-flex items-center justify-center gap-2.5 bg-gradient-to-r from-brand-500 to-amber-600 hover:from-brand-600 hover:to-amber-700 text-white font-extrabold py-3.5 px-5 rounded-2xl shadow-md hover:shadow-glow transition-all duration-300 transform hover:-translate-y-0.5"
+                        >
+                            <i class="fa-brands fa-whatsapp text-xl"></i>
+                            <span>Hubungi Kami (Pesan 30K)</span>
+                        </button>
+                    </div>
+                </article>
+
+                <!-- ================= KATEGORI 3: PISANG KIPAS JUMBO FROZEN ================= -->
+                <article data-category="pisang" class="menu-card w-full md:w-[calc(50%-1rem)] lg:w-[calc(33.333%-1.35rem)] group bg-white dark:bg-slate-900 rounded-3xl overflow-hidden border-2 border-amber-300 dark:border-amber-600 shadow-xl hover:shadow-glow transition-all duration-500 flex flex-col justify-between">
+                    <div>
+                        <!-- Product Image Header -->
+                        <div class="relative h-64 sm:h-72 overflow-hidden bg-amber-100 dark:bg-slate-800">
+                            <img 
+                                src="https://images.unsplash.com/photo-1528735602780-2552fd46c7af?auto=format&fit=crop&w=900&q=85" 
+                                onerror="this.onerror=null;this.src='https://placehold.co/800x600/b45309/ffffff?text=Pisang+Kipas+Jumbo+Frozen';"
+                                alt="Pisang Kipas Jumbo Frozen Isi 10 Pcs Oleh-Oleh Khas Pekanbaru" 
+                                class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
+                            >
+                            <div class="absolute inset-0 bg-gradient-to-t from-slate-950/85 via-slate-950/25 to-transparent"></div>
+                            
+                            <!-- Top Badges -->
+                            <div class="absolute top-4 left-4 right-4 flex items-center justify-between gap-2">
+                                <span class="px-3 py-1.5 rounded-full bg-gradient-to-r from-amber-500 to-red-600 text-white text-[11px] font-extrabold uppercase tracking-wider shadow-md flex items-center gap-1.5">
+                                    <i class="fa-solid fa-fire"></i> Best Seller #1 • JUMBO
+                                </span>
+                                <span class="px-3 py-1.5 rounded-full bg-rose-600 text-white text-[11px] font-extrabold uppercase tracking-wider shadow-md animate-pulse">
+                                    Hemat Rp 20.000!
+                                </span>
+                            </div>
+
+                            <!-- Price Tag Overlay -->
+                            <div class="absolute bottom-4 right-4 bg-white/95 dark:bg-slate-900/95 backdrop-blur-md px-3.5 py-2 rounded-2xl shadow-lg border border-amber-200 dark:border-slate-700 text-right">
+                                <div class="flex items-center justify-end gap-1.5">
+                                    <span class="text-[10px] font-extrabold px-1.5 py-0.5 rounded bg-rose-100 dark:bg-rose-900/60 text-rose-600 dark:text-rose-300">DISKON 36%</span>
+                                    <span class="text-xs text-slate-400 line-through font-semibold">Rp 55.000</span>
+                                </div>
+                                <span class="text-xl font-extrabold text-brand-600 dark:text-brand-400">Rp 35.000 <span class="text-[11px] font-normal text-slate-500">/ pack</span></span>
+                            </div>
+
+                            <!-- Product Title on Image Bottom Left -->
+                            <div class="absolute bottom-4 left-4 right-40">
+                                <span class="text-[11px] font-bold uppercase tracking-widest text-amber-300 block">Oleh-Oleh Pekanbaru #3</span>
+                                <h3 class="font-serif font-extrabold text-xl sm:text-2xl text-white drop-shadow leading-tight">
+                                    Pisang Kipas Jumbo Frozen
+                                </h3>
+                            </div>
+                        </div>
+
+                        <!-- Product Content Body -->
+                        <div class="p-6">
+                            <!-- Rating & Pack Info -->
+                            <div class="flex flex-wrap items-center justify-between gap-2 pb-3.5 mb-4 border-b border-slate-100 dark:border-slate-800 text-xs">
+                                <div class="flex items-center gap-1 text-amber-500 font-bold">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <span class="text-slate-600 dark:text-slate-400 ml-1 font-medium">(5.0 • 2.1rb+ Terjual)</span>
+                                </div>
+                                <span class="px-3 py-1 rounded-lg bg-amber-100 dark:bg-amber-950/70 text-amber-900 dark:text-amber-300 font-extrabold">
+                                    📦 Isi: 10 Pcs Jumbo / Pack
+                                </span>
+                            </div>
+
+                            <!-- Persuasive Marketing Copywriting (Oleh-Oleh Khas Pekanbaru) -->
+                            <p class="text-slate-600 dark:text-slate-300 text-sm leading-relaxed mb-5">
+                                <strong class="text-slate-900 dark:text-white">"Oleh-oleh kebanggaan Pekanbaru ukuran JUMBO yang mekar sempurna & bikin bangga!"</strong> Potongan pisang pilihan ukuran super besar dengan daging tebal nan lembut, dibalut tepung ekstra krispi. <strong>Cuma tambah 5 ribu dari ukuran normal</strong>, sangat berkelas dijadikan buah tangan spesial untuk atasan, kolega, maupun mertua! <strong>Hemat Rp 20.000/pack!</strong>
+                            </p>
+
+                            <!-- Product Highlights List -->
+                            <ul class="grid grid-cols-2 gap-2 text-xs text-slate-700 dark:text-slate-300 mb-4">
+                                <li class="flex items-center gap-1.5">
+                                    <i class="fa-solid fa-circle-check text-emerald-500"></i> Ukuran Ekstra Besar (Jumbo)
+                                </li>
+                                <li class="flex items-center gap-1.5">
+                                    <i class="fa-solid fa-circle-check text-emerald-500"></i> Oleh-Oleh Kelas Premium
+                                </li>
+                                <li class="flex items-center gap-1.5">
+                                    <i class="fa-solid fa-circle-check text-emerald-500"></i> Diskon Terbesar Hemat 20K
+                                </li>
+                                <li class="flex items-center gap-1.5">
+                                    <i class="fa-solid fa-circle-check text-emerald-500"></i> Cocok untuk Buah Tangan VIP
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Product Order Footer -->
+                    <div class="px-6 pb-6 pt-3 bg-amber-50/50 dark:bg-slate-900/60 border-t border-amber-100/80 dark:border-slate-800 space-y-3">
+                        <div class="flex items-center justify-between bg-white dark:bg-slate-800 px-3.5 py-2 rounded-2xl border border-slate-200 dark:border-slate-700">
+                            <span class="text-xs font-bold text-slate-500 dark:text-slate-400 uppercase">Jumlah Pack:</span>
+                            <div class="flex items-center gap-2">
+                                <button type="button" onclick="updateQty('qty-pisang-jumbo', -1)" class="w-8 h-8 rounded-xl bg-amber-100 dark:bg-slate-700 text-amber-900 dark:text-white font-bold hover:bg-amber-200 transition flex items-center justify-center" aria-label="Kurangi jumlah">
+                                    <i class="fa-solid fa-minus text-xs"></i>
+                                </button>
+                                <input id="qty-pisang-jumbo" type="number" value="1" min="1" max="99" readonly class="w-10 text-center font-extrabold text-base bg-transparent text-slate-900 dark:text-white focus:outline-none">
+                                <button type="button" onclick="updateQty('qty-pisang-jumbo', 1)" class="w-8 h-8 rounded-xl bg-amber-100 dark:bg-slate-700 text-amber-900 dark:text-white font-bold hover:bg-amber-200 transition flex items-center justify-center" aria-label="Tambah jumlah">
+                                    <i class="fa-solid fa-plus text-xs"></i>
+                                </button>
+                            </div>
+                        </div>
+
+                        <button 
+                            type="button"
+                            onclick="orderProduct('Pisang Kipas Jumbo Frozen (Isi 10 Pcs Jumbo) - Oleh-Oleh Khas Pekanbaru', 35000, 55000, 'qty-pisang-jumbo')"
+                            class="w-full inline-flex items-center justify-center gap-2.5 bg-gradient-to-r from-amber-600 via-brand-600 to-red-600 hover:from-amber-700 hover:to-red-700 text-white font-extrabold py-3.5 px-5 rounded-2xl shadow-md hover:shadow-glow transition-all duration-300 transform hover:-translate-y-0.5"
+                        >
+                            <i class="fa-brands fa-whatsapp text-xl"></i>
+                            <span>Hubungi Kami (Pesan 35K)</span>
+                        </button>
+                    </div>
+                </article>
+
+                <!-- ================= KATEGORI 4: UBI FROZEN (UKURAN SAMA PERSIS & BERADA DI TENGAH TATA LETAK MENU) ================= -->
+                <article data-category="ubi" class="menu-card w-full md:w-[calc(50%-1rem)] lg:w-[calc(33.333%-1.35rem)] group bg-white dark:bg-slate-900 rounded-3xl overflow-hidden border-2 border-purple-300/90 dark:border-purple-700 shadow-xl hover:shadow-glow-purple transition-all duration-500 flex flex-col justify-between">
+                    <div>
+                        <!-- Product Image Header -->
+                        <div class="relative h-64 sm:h-72 overflow-hidden bg-purple-100 dark:bg-slate-800">
+                            <img 
+                                src="https://images.unsplash.com/photo-1596040033229-a9821ebd058d?auto=format&fit=crop&w=900&q=85" 
+                                onerror="this.onerror=null;this.src='https://placehold.co/800x600/9333ea/ffffff?text=Ubi+Frozen+14K';"
+                                alt="Ubi Frozen Oleh-Oleh Khas Pekanbaru" 
+                                class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
+                            >
+                            <div class="absolute inset-0 bg-gradient-to-t from-slate-950/85 via-slate-950/25 to-transparent"></div>
+                            
+                            <!-- Top Badges -->
+                            <div class="absolute top-4 left-4 right-4 flex items-center justify-between gap-2">
+                                <span class="px-3 py-1.5 rounded-full bg-purple-600 text-white text-[11px] font-extrabold uppercase tracking-wider shadow-md flex items-center gap-1.5">
+                                    <i class="fa-solid fa-crown"></i> Pelengkap Oleh-Oleh
+                                </span>
+                                <span class="px-3 py-1.5 rounded-full bg-rose-600 text-white text-[11px] font-extrabold uppercase tracking-wider shadow-md animate-pulse">
+                                    Hemat Rp 6.000!
+                                </span>
+                            </div>
+
+                            <!-- Price Tag Overlay -->
+                            <div class="absolute bottom-4 right-4 bg-white/95 dark:bg-slate-900/95 backdrop-blur-md px-3.5 py-2 rounded-2xl shadow-lg border border-purple-200 dark:border-slate-700 text-right">
+                                <div class="flex items-center justify-end gap-1.5">
+                                    <span class="text-[10px] font-extrabold px-1.5 py-0.5 rounded bg-rose-100 dark:bg-rose-900/60 text-rose-600 dark:text-rose-300">DISKON 30%</span>
+                                    <span class="text-xs text-slate-400 line-through font-semibold">Rp 20.000</span>
+                                </div>
+                                <span class="text-xl font-extrabold text-purple-600 dark:text-purple-400">Rp 14.000 <span class="text-[11px] font-normal text-slate-500">/ pack</span></span>
+                            </div>
+
+                            <!-- Product Title on Image Bottom Left -->
+                            <div class="absolute bottom-4 left-4 right-40">
+                                <span class="text-[11px] font-bold uppercase tracking-widest text-purple-300 block">Oleh-Oleh Pekanbaru #4</span>
+                                <h3 class="font-serif font-extrabold text-xl sm:text-2xl text-white drop-shadow leading-tight">
+                                    Ubi Frozen
+                                </h3>
+                            </div>
+                        </div>
+
+                        <!-- Product Content Body -->
+                        <div class="p-6">
+                            <!-- Rating & Pack Info -->
+                            <div class="flex flex-wrap items-center justify-between gap-2 pb-3.5 mb-4 border-b border-slate-100 dark:border-slate-800 text-xs">
+                                <div class="flex items-center gap-1 text-amber-500 font-bold">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <span class="text-slate-600 dark:text-slate-400 ml-1 font-medium">(4.9 • 1.1rb+ Terjual)</span>
+                                </div>
+                                <span class="px-3 py-1 rounded-lg bg-purple-100 dark:bg-purple-950/70 text-purple-900 dark:text-purple-300 font-extrabold">
+                                    🍠 Promo Spesial 14K
+                                </span>
+                            </div>
+
+                            <!-- Persuasive Marketing Copywriting (Oleh-Oleh Khas Pekanbaru) -->
+                            <p class="text-slate-600 dark:text-slate-300 text-sm leading-relaxed mb-5">
+                                <strong class="text-slate-900 dark:text-white">"Pasangan wajib Pisang Kipas untuk buah tangan khas Pekanbaru yang lengkap & berkesan!"</strong> Olahan <strong>Ubi Pilihan Berkualitas</strong> yang bertekstur lembut lumer dan manis alami di dalam, berpadu dengan balutan tepung krispi rahasia MM. <strong>Dari harga normal Rp 20.000 kini diskon jadi cuma Rp 14.000 saja!</strong> Wajib diborong bareng Pisang Kipas!
+                            </p>
+
+                            <!-- Product Highlights List -->
+                            <ul class="grid grid-cols-2 gap-2 text-xs text-slate-700 dark:text-slate-300 mb-4">
+                                <li class="flex items-center gap-1.5">
+                                    <i class="fa-solid fa-circle-check text-purple-600 dark:text-purple-400"></i> 100% Ubi Pilihan Asli
+                                </li>
+                                <li class="flex items-center gap-1.5">
+                                    <i class="fa-solid fa-circle-check text-purple-600 dark:text-purple-400"></i> Lembut & Manis Legit
+                                </li>
+                                <li class="flex items-center gap-1.5">
+                                    <i class="fa-solid fa-circle-check text-purple-600 dark:text-purple-400"></i> Tanpa Pewarna Buatan
+                                </li>
+                                <li class="flex items-center gap-1.5">
+                                    <i class="fa-solid fa-circle-check text-purple-600 dark:text-purple-400"></i> Super Hemat Cuma 14K!
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Product Order Footer -->
+                    <div class="px-6 pb-6 pt-3 bg-purple-50/50 dark:bg-slate-900/60 border-t border-purple-100/80 dark:border-slate-800 space-y-3">
+                        <div class="flex items-center justify-between bg-white dark:bg-slate-800 px-3.5 py-2 rounded-2xl border border-slate-200 dark:border-slate-700">
+                            <span class="text-xs font-bold text-slate-500 dark:text-slate-400 uppercase">Jumlah Pack:</span>
+                            <div class="flex items-center gap-2">
+                                <button type="button" onclick="updateQty('qty-ubi', -1)" class="w-8 h-8 rounded-xl bg-purple-100 dark:bg-slate-700 text-purple-900 dark:text-white font-bold hover:bg-purple-200 transition flex items-center justify-center" aria-label="Kurangi jumlah">
+                                    <i class="fa-solid fa-minus text-xs"></i>
+                                </button>
+                                <input id="qty-ubi" type="number" value="1" min="1" max="99" readonly class="w-10 text-center font-extrabold text-base bg-transparent text-slate-900 dark:text-white focus:outline-none">
+                                <button type="button" onclick="updateQty('qty-ubi', 1)" class="w-8 h-8 rounded-xl bg-purple-100 dark:bg-slate-700 text-purple-900 dark:text-white font-bold hover:bg-purple-200 transition flex items-center justify-center" aria-label="Tambah jumlah">
+                                    <i class="fa-solid fa-plus text-xs"></i>
+                                </button>
+                            </div>
+                        </div>
+
+                        <button 
+                            type="button"
+                            onclick="orderProduct('Ubi Frozen - Oleh-Oleh Khas Pekanbaru', 14000, 20000, 'qty-ubi')"
+                            class="w-full inline-flex items-center justify-center gap-2.5 bg-gradient-to-r from-purple-600 to-indigo-600 hover:from-purple-700 hover:to-indigo-700 text-white font-extrabold py-3.5 px-5 rounded-2xl shadow-md hover:shadow-glow-purple transition-all duration-300 transform hover:-translate-y-0.5"
+                        >
+                            <i class="fa-brands fa-whatsapp text-xl"></i>
+                            <span>Hubungi Kami (Pesan 14K)</span>
+                        </button>
+                    </div>
+                </article>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ================= CARA PENYAJIAN SECTION ================= -->
+    <section id="cara-saji" class="py-16 md:py-24 bg-amber-100/50 dark:bg-slate-900/80 border-t border-amber-200/60 dark:border-slate-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-2xl mx-auto mb-14">
+                <span class="text-brand-600 dark:text-brand-400 font-bold text-sm uppercase tracking-widest">Mudah & Anti Gagal</span>
+                <h2 class="font-serif font-extrabold text-3xl sm:text-4xl text-slate-900 dark:text-white mt-2">
+                    3 Langkah Mudah Menyajikan Oleh-Oleh di Rumah
+                </h2>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Step 1 -->
+                <div class="relative bg-white dark:bg-slate-800 p-7 rounded-3xl shadow-md border border-amber-100 dark:border-slate-700 text-center">
+                    <div class="w-12 h-12 rounded-full bg-brand-500 text-white font-extrabold text-lg flex items-center justify-center mx-auto mb-4 shadow-md">1</div>
+                    <h3 class="font-bold text-lg text-slate-900 dark:text-white mb-2">Keluarkan dari Freezer</h3>
+                    <p class="text-sm text-slate-600 dark:text-slate-300">
+                        Diamkan <strong>Pisang Kipas Frozen</strong> atau <strong>Ubi Frozen</strong> pada suhu ruang selama 5–10 menit hingga tidak terlalu beku.
+                    </p>
+                </div>
+
+                <!-- Step 2 -->
+                <div class="relative bg-white dark:bg-slate-800 p-7 rounded-3xl shadow-md border border-amber-100 dark:border-slate-700 text-center">
+                    <div class="w-12 h-12 rounded-full bg-brand-500 text-white font-extrabold text-lg flex items-center justify-center mx-auto mb-4 shadow-md">2</div>
+                    <h3 class="font-bold text-lg text-slate-900 dark:text-white mb-2">Goreng di Minyak Panas</h3>
+                    <p class="text-sm text-slate-600 dark:text-slate-300">
+                        Goreng dengan api sedang selama 3–5 menit hingga berwarna kuning keemasan dan renyah. Bisa juga menggunakan <em>Air Fryer</em> (180°C, 8-10 menit).
+                    </p>
+                </div>
+
+                <!-- Step 3 -->
+                <div class="relative bg-white dark:bg-slate-800 p-7 rounded-3xl shadow-md border border-amber-100 dark:border-slate-700 text-center">
+                    <div class="w-12 h-12 rounded-full bg-brand-500 text-white font-extrabold text-lg flex items-center justify-center mx-auto mb-4 shadow-md">3</div>
+                    <h3 class="font-bold text-lg text-slate-900 dark:text-white mb-2">Siap Dinikmati Hangat!</h3>
+                    <p class="text-sm text-slate-600 dark:text-slate-300">
+                        Tiriskan dan sajikan selagi hangat bersama keluarga tercinta. Nikmati kelezatan autentik khas Pekanbaru langsung di meja makan Anda!
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= LOKASI BISNIS & GOOGLE MAPS KOORDINAT PRESISI SECTION ================= -->
+    <section id="lokasi" class="py-20 md:py-24 bg-white dark:bg-slate-900/90 border-t border-amber-200/60 dark:border-slate-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-12">
+                <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-amber-100 dark:bg-amber-950/80 text-brand-700 dark:text-brand-300 text-xs font-extrabold uppercase tracking-widest mb-3">
+                    <i class="fa-solid fa-location-crosshairs"></i> Titik Koordinat Presisi: 0.453255, 101.424564
+                </div>
+                <h2 class="font-serif font-extrabold text-3xl sm:text-4xl text-slate-900 dark:text-white">
+                    Lokasi Pusat Oleh-Oleh <span class="text-brand-600 dark:text-brand-400">Pisang Kipas MM</span> Pekanbaru
+                </h2>
+                <p class="mt-3 text-slate-600 dark:text-slate-300 text-sm sm:text-base">
+                    Ingin menjemput langsung oleh-oleh sebelum ke bandara atau pesan via kurir instan? Kunjungi titik lokasi tepat kami di <strong>Jl. Inpres, Marpoyan Damai, Pekanbaru</strong>!
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-stretch bg-amber-50/60 dark:bg-slate-800/50 p-4 sm:p-6 lg:p-8 rounded-3xl border-2 border-amber-200/80 dark:border-slate-700 shadow-xl">
+                
+                <!-- Left Column: Address Info & Exact Coordinate CTA -->
+                <div class="lg:col-span-5 flex flex-col justify-between space-y-6 bg-white dark:bg-slate-900 p-6 sm:p-7 rounded-2xl border border-amber-100 dark:border-slate-800 shadow-sm">
+                    <div class="space-y-5">
+                        <div class="flex flex-wrap items-center justify-between gap-2">
+                            <div class="inline-flex items-center gap-2 text-xs font-extrabold uppercase tracking-wider text-emerald-600 dark:text-emerald-400 bg-emerald-50 dark:bg-emerald-950/60 px-3 py-1.5 rounded-lg">
+                                <span class="w-2 h-2 rounded-full bg-emerald-500 animate-ping"></span>
+                                Koordinat GPS Tepat
+                            </div>
+                            <span class="text-xs font-mono font-bold px-2.5 py-1 rounded-lg bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300">
+                                0.453255, 101.424564
+                            </span>
+                        </div>
+
+                        <div>
+                            <h3 class="font-serif font-extrabold text-2xl text-slate-900 dark:text-white">
+                                Pisang Kipas MM Pekanbaru
+                            </h3>
+                            <p class="text-xs text-slate-500 dark:text-slate-400 mt-0.5">Pusat Oleh-Oleh Khas Pekanbaru (Pisang Kipas Frozen & Ubi Frozen)</p>
+                        </div>
+
+                        <div class="space-y-4 pt-2 border-t border-slate-100 dark:border-slate-800">
+                            <div class="flex items-start gap-3.5">
+                                <div class="w-10 h-10 rounded-xl bg-brand-100 dark:bg-amber-950/80 text-brand-600 dark:text-brand-400 flex items-center justify-center flex-shrink-0 mt-0.5">
+                                    <i class="fa-solid fa-location-dot text-lg"></i>
+                                </div>
+                                <div>
+                                    <p class="text-xs font-bold uppercase tracking-wider text-slate-400">Alamat Lengkap:</p>
+                                    <p class="font-bold text-slate-800 dark:text-slate-100 text-sm sm:text-base leading-relaxed mt-0.5">
+                                        Jl. Inpres, Sidomulyo Tim., Marpoyan Damai, Kota Pekanbaru, Riau 28289
+                                    </p>
+                                    <p class="text-xs font-mono text-brand-600 dark:text-brand-400 mt-1 font-semibold">
+                                        📍 Titik Koordinat: 0.453255, 101.424564
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="flex items-start gap-3.5">
+                                <div class="w-10 h-10 rounded-xl bg-emerald-100 dark:bg-emerald-950/80 text-emerald-600 dark:text-emerald-400 flex items-center justify-center flex-shrink-0 mt-0.5">
+                                    <i class="fa-brands fa-whatsapp text-lg"></i>
+                                </div>
+                                <div>
+                                    <p class="text-xs font-bold uppercase tracking-wider text-slate-400">Telepon / WhatsApp Oleh-Oleh:</p>
+                                    <p class="font-extrabold text-emerald-600 dark:text-emerald-400 text-base mt-0.5">
+                                        +62 853-7432-1474
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="flex items-start gap-3.5">
+                                <div class="w-10 h-10 rounded-xl bg-purple-100 dark:bg-purple-950/80 text-purple-600 dark:text-purple-400 flex items-center justify-center flex-shrink-0 mt-0.5">
+                                    <i class="fa-solid fa-motorcycle text-lg"></i>
+                                </div>
+                                <div>
+                                    <p class="text-xs font-bold uppercase tracking-wider text-slate-400">Layanan Pengiriman:</p>
+                                    <p class="text-slate-600 dark:text-slate-300 text-xs sm:text-sm mt-0.5">
+                                        Siap kirim ke Hotel / Bandara / Rumah via GoSend, GrabExpress, Maxim area Pekanbaru & Ambil Langsung di Tempat.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="pt-4 space-y-2.5">
+                        <a 
+                            href="https://www.google.com/maps/search/0.453255,+101.424564?entry=tts&g_ep=EgoyMDI2MTAyMC4wIPu8ASoASAFQAw%3D%3D&skid=ae8a95ab-3472-4145-8400-0be07c2fda1c" 
+                            target="_blank" 
+                            rel="noopener noreferrer"
+                            class="w-full inline-flex items-center justify-center gap-2.5 bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 text-white font-extrabold py-4 px-5 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-0.5 text-sm"
+                        >
+                            <i class="fa-solid fa-location-crosshairs text-lg"></i>
+                            <span>Buka Titik Koordinat di Google Maps</span>
+                            <i class="fa-solid fa-arrow-up-right-from-square text-xs opacity-80"></i>
+                        </a>
+                        <a 
+                            href="https://maps.app.goo.gl/bioYh1EWH9yTZp9k8" 
+                            target="_blank" 
+                            rel="noopener noreferrer"
+                            class="w-full inline-flex items-center justify-center gap-2 bg-amber-100/80 dark:bg-slate-800 hover:bg-amber-200 dark:hover:bg-slate-700 text-amber-900 dark:text-amber-300 font-bold py-2.5 px-4 rounded-xl transition text-xs"
+                        >
+                            <i class="fa-solid fa-map-pin"></i>
+                            <span>Alternatif Link Google Maps Toko</span>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Right Column: Interactive Google Maps Embed Pinpointing Exact Coordinates 0.453255, 101.424564 -->
+                <div class="lg:col-span-7 relative min-h-[380px] sm:min-h-[450px] rounded-2xl overflow-hidden border-2 border-white dark:border-slate-700 shadow-lg group">
+                    <!-- Google Maps Embed pointing directly to 0.453255, 101.424564 -->
+                    <iframe 
+                        title="Titik Koordinat Lokasi Pisang Kipas MM 0.453255, 101.424564"
+                        src="https://maps.google.com/maps?q=0.453255,101.424564&hl=id&z=17&output=embed"
+                        class="w-full h-full min-h-[380px] sm:min-h-[450px] border-0" 
+                        allowfullscreen="" 
+                        loading="lazy" 
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+
+                    <!-- Floating Bottom Card on Map that links directly to the exact coordinate URL -->
+                    <a 
+                        href="https://www.google.com/maps/search/0.453255,+101.424564?entry=tts&g_ep=EgoyMDI2MTAyMC4wIPu8ASoASAFQAw%3D%3D&skid=ae8a95ab-3472-4145-8400-0be07c2fda1c" 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        class="absolute bottom-4 left-4 right-4 sm:right-auto bg-white/95 dark:bg-slate-900/95 backdrop-blur-md p-3.5 sm:px-5 sm:py-3.5 rounded-2xl shadow-2xl border border-amber-300 dark:border-slate-700 flex items-center justify-between sm:justify-start gap-3.5 hover:bg-amber-50 dark:hover:bg-slate-800 transition-all group"
+                    >
+                        <div class="w-10 h-10 rounded-xl bg-red-600 text-white flex items-center justify-center text-lg shadow flex-shrink-0 group-hover:scale-110 transition-transform">
+                            <i class="fa-solid fa-location-dot"></i>
+                        </div>
+                        <div class="text-left">
+                            <span class="text-[10px] font-extrabold uppercase tracking-wider text-brand-600 dark:text-brand-400 block">Titik Koordinat Presisi (0.453255, 101.424564)</span>
+                            <span class="font-bold text-xs sm:text-sm text-slate-900 dark:text-white block">Jl. Inpres, Sidomulyo Tim., Pekanbaru</span>
+                        </div>
+                        <span class="px-3 py-1.5 rounded-xl bg-brand-500 text-white text-xs font-extrabold ml-2 flex-shrink-0">
+                            Rute Maps <i class="fa-solid fa-chevron-right ml-1 text-[10px]"></i>
+                        </span>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= KONTAK & SOSIAL MEDIA SECTION ================= -->
+    <section id="kontak" class="py-20 md:py-28 relative overflow-hidden">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
+                
+                <!-- Left Column: Info Kontak & Pengaturan Nomor WA -->
+                <div class="lg:col-span-6 space-y-8">
+                    <div>
+                        <span class="text-brand-600 dark:text-brand-400 font-bold text-sm uppercase tracking-widest">Hubungi Kami</span>
+                        <h2 class="font-serif font-extrabold text-3xl sm:text-4xl text-slate-900 dark:text-white mt-2">
+                            Pesan Oleh-Oleh Khas Pekanbaru Sekarang Juga!
+                        </h2>
+                        <p class="text-slate-600 dark:text-slate-300 mt-3 leading-relaxed">
+                            Ingin pesan paket oleh-oleh untuk dibawa pulang, kirim ke hotel, tanya stok, atau bergabung menjadi <strong>Reseller Pisang Kipas MM</strong>? Hubungi kami melalui WhatsApp atau kunjungi Instagram resmi toko dan pemilik bisnis kami.
+                        </p>
+                    </div>
+
+                    <!-- Contact Details List -->
+                    <div class="space-y-4">
+                        <div class="flex items-start gap-4 p-4 rounded-2xl bg-white dark:bg-slate-900 border border-slate-200/80 dark:border-slate-800 shadow-sm">
+                            <div class="w-12 h-12 rounded-xl bg-emerald-100 dark:bg-emerald-950/70 text-emerald-600 dark:text-emerald-400 flex items-center justify-center text-xl flex-shrink-0">
+                                <i class="fa-brands fa-whatsapp"></i>
+                            </div>
+                            <div class="flex-1">
+                                <h3 class="font-bold text-slate-900 dark:text-white">WhatsApp Pemesanan Cepat</h3>
+                                <p id="display-wa-number" class="text-emerald-600 dark:text-emerald-400 font-extrabold text-lg">+62 853-7432-1474</p>
+                                <p class="text-xs text-slate-500 dark:text-slate-400 mt-0.5">Klik tombol produk untuk chat otomatis ke nomor ini</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-start gap-4 p-4 rounded-2xl bg-white dark:bg-slate-900 border border-slate-200/80 dark:border-slate-800 shadow-sm">
+                            <div class="w-12 h-12 rounded-xl bg-amber-100 dark:bg-amber-950/70 text-brand-600 dark:text-brand-400 flex items-center justify-center text-xl flex-shrink-0">
+                                <i class="fa-solid fa-location-dot"></i>
+                            </div>
+                            <div class="flex-1">
+                                <h3 class="font-bold text-slate-900 dark:text-white">Lokasi Outlet & Dapur Produksi</h3>
+                                <p class="text-sm text-slate-600 dark:text-slate-300 font-medium">Jl. Inpres, Sidomulyo Tim., Marpoyan Damai, Kota Pekanbaru, Riau 28289</p>
+                                <a href="https://www.google.com/maps/search/0.453255,+101.424564?entry=tts&g_ep=EgoyMDI2MTAyMC4wIPu8ASoASAFQAw%3D%3D&skid=ae8a95ab-3472-4145-8400-0be07c2fda1c" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1.5 text-xs font-extrabold text-brand-600 dark:text-brand-400 hover:underline mt-1">
+                                    <i class="fa-solid fa-location-crosshairs"></i> Lihat Titik Koordinat Maps (0.453255, 101.424564)
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="flex items-start gap-4 p-4 rounded-2xl bg-white dark:bg-slate-900 border border-slate-200/80 dark:border-slate-800 shadow-sm">
+                            <div class="w-12 h-12 rounded-xl bg-purple-100 dark:bg-purple-950/70 text-purple-600 dark:text-purple-400 flex items-center justify-center text-xl flex-shrink-0">
+                                <i class="fa-solid fa-clock"></i>
+                            </div>
+                            <div>
+                                <h3 class="font-bold text-slate-900 dark:text-white">Jam Operasional</h3>
+                                <p class="text-sm text-slate-600 dark:text-slate-300">Senin – Minggu: 08.00 – 21.00 WIB</p>
+                                <p class="text-xs text-emerald-600 dark:text-emerald-400 font-semibold mt-0.5">● Buka Setiap Hari (Termasuk Hari Libur)</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Nomor WhatsApp Tujuan Customizer -->
+                    <div class="p-5 rounded-2xl bg-amber-50/90 dark:bg-slate-900 border border-amber-200 dark:border-slate-800">
+                        <label for="custom-wa-input" class="block text-xs font-extrabold uppercase tracking-wider text-amber-900 dark:text-amber-400 mb-2">
+                            <i class="fa-solid fa-gear mr-1"></i> Pengaturan Nomor WhatsApp Tujuan Toko:
+                        </label>
+                        <div class="flex flex-col sm:flex-row gap-2">
+                            <input 
+                                id="custom-wa-input" 
+                                type="text" 
+                                value="6285374321474" 
+                                placeholder="Contoh: 6285374321474"
+                                class="flex-1 px-4 py-2.5 rounded-xl bg-white dark:bg-slate-800 border border-amber-300 dark:border-slate-700 text-sm font-semibold text-slate-800 dark:text-white focus:outline-none focus:ring-2 focus:ring-brand-500"
+                            >
+                            <button 
+                                type="button" 
+                                onclick="saveCustomWANumber()"
+                                class="px-5 py-2.5 rounded-xl bg-slate-900 dark:bg-brand-600 hover:bg-slate-800 dark:hover:bg-brand-500 text-white text-xs font-bold transition"
+                            >
+                                Simpan Nomor WA
+                            </button>
+                        </div>
+                        <p class="text-[11px] text-slate-500 dark:text-slate-400 mt-1.5">
+                            *Gunakan awalan kode negara <strong>62</strong> (tanpa tanda + atau 0 di depan). Semua tombol pemesanan otomatis mengarah ke nomor ini.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Right Column: Social Media Cards (Instagram Official, Instagram Owner @sucitesa, WhatsApp) & Quick Custom Message Form -->
+                <div class="lg:col-span-6 space-y-6">
+                    <!-- Social Media Box -->
+                    <div class="bg-white dark:bg-slate-900 p-6 sm:p-8 rounded-3xl border border-slate-200/80 dark:border-slate-800 shadow-xl">
+                        <h3 class="font-serif font-bold text-2xl text-slate-900 dark:text-white mb-2">
+                            Media Sosial & Profil Pemilik Bisnis
+                        </h3>
+                        <p class="text-sm text-slate-600 dark:text-slate-400 mb-6">
+                            Ikuti Instagram resmi <strong>Pisang Kipas MM</strong> serta Instagram <strong>Owner / Pemilik Bisnis (@sucitesa)</strong> untuk update promo oleh-oleh terbaru!
+                        </p>
+
+                        <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
+                            <!-- Instagram Toko Resmi -->
+                            <a href="https://www.instagram.com/pisangkipasmm" target="_blank" rel="noopener noreferrer" class="group flex flex-col items-center justify-center p-5 rounded-2xl bg-gradient-to-br from-pink-500 via-rose-500 to-amber-500 text-white shadow-md hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 text-center">
+                                <i class="fa-brands fa-instagram text-3xl mb-2 group-hover:scale-110 transition-transform"></i>
+                                <span class="font-extrabold text-sm">IG Resmi Toko</span>
+                                <span class="text-[11px] text-white/90">@pisangkipasmm</span>
+                            </a>
+
+                            <!-- Instagram Owner / Pemilik Bisnis (Menggantikan TikTok) -->
+                            <a href="https://www.instagram.com/sucitesa" target="_blank" rel="noopener noreferrer" class="group flex flex-col items-center justify-center p-5 rounded-2xl bg-gradient-to-br from-purple-600 via-fuchsia-600 to-pink-500 text-white shadow-md hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 text-center">
+                                <i class="fa-brands fa-instagram text-3xl mb-2 group-hover:scale-110 transition-transform"></i>
+                                <span class="font-extrabold text-sm">IG Owner Bisnis</span>
+                                <span class="text-[11px] text-white/90">@sucitesa</span>
+                            </a>
+
+                            <!-- WhatsApp Official -->
+                            <button type="button" onclick="orderDirectWA('Oleh-Oleh Khas Pekanbaru Pisang Kipas Frozen & Ubi Frozen')" class="group flex flex-col items-center justify-center p-5 rounded-2xl bg-gradient-to-br from-emerald-500 to-green-600 text-white shadow-md hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 text-center">
+                                <i class="fa-brands fa-whatsapp text-3xl mb-2 group-hover:scale-110 transition-transform"></i>
+                                <span class="font-extrabold text-sm">WhatsApp</span>
+                                <span class="text-[11px] text-emerald-100">Fast Response</span>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Quick Custom Order Form via WhatsApp -->
+                    <div class="bg-white dark:bg-slate-900 p-6 sm:p-8 rounded-3xl border border-slate-200/80 dark:border-slate-800 shadow-xl">
+                        <h3 class="font-serif font-bold text-2xl text-slate-900 dark:text-white mb-1">
+                            Formulir Pesan Oleh-Oleh ke WhatsApp
+                        </h3>
+                        <p class="text-xs sm:text-sm text-slate-500 dark:text-slate-400 mb-5">
+                            Isi data singkat di bawah ini untuk langsung mengirim format order lengkap ke WhatsApp kami.
+                        </p>
+
+                        <form id="quick-order-form" onsubmit="submitQuickOrderForm(event)" class="space-y-4">
+                            <div>
+                                <label for="cust-name" class="block text-xs font-bold uppercase text-slate-600 dark:text-slate-300 mb-1">Nama Anda</label>
+                                <input id="cust-name" type="text" required placeholder="Masukkan nama lengkap..." class="w-full px-4 py-3 rounded-xl bg-slate-50 dark:bg-slate-800 border border-slate-200 dark:border-slate-700 text-sm text-slate-900 dark:text-white focus:outline-none focus:ring-2 focus:ring-brand-500">
+                            </div>
+
+                            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                                <div>
+                                    <label for="cust-product" class="block text-xs font-bold uppercase text-slate-600 dark:text-slate-300 mb-1">Pilih Menu Oleh-Oleh</label>
+                                    <select id="cust-product" class="w-full px-4 py-3 rounded-xl bg-slate-50 dark:bg-slate-800 border border-slate-200 dark:border-slate-700 text-sm font-semibold text-slate-900 dark:text-white focus:outline-none focus:ring-2 focus:ring-brand-500">
+                                        <option value="Pisang Kipas Mini Frozen - Isi 14 Pcs (Promo Rp 30.000/pack)">Pisang Kipas Mini Frozen - Isi 14 (Rp 30.000)</option>
+                                        <option value="Pisang Kipas Normal Frozen - Isi 10 Pcs (Promo Rp 30.000/pack)">Pisang Kipas Normal Frozen - Isi 10 (Rp 30.000)</option>
+                                        <option value="Pisang Kipas Jumbo Frozen - Isi 10 Pcs (Promo Rp 35.000/pack)">Pisang Kipas Jumbo Frozen - Isi 10 (Rp 35.000)</option>
+                                        <option value="Ubi Frozen (Promo Rp 14.000/pack)">Ubi Frozen (Rp 14.000)</option>
+                                    </select>
+                                </div>
+                                <div>
+                                    <label for="cust-qty" class="block text-xs font-bold uppercase text-slate-600 dark:text-slate-300 mb-1">Jumlah (Pack)</label>
+                                    <input id="cust-qty" type="number" min="1" max="100" value="2" required class="w-full px-4 py-3 rounded-xl bg-slate-50 dark:bg-slate-800 border border-slate-200 dark:border-slate-700 text-sm font-semibold text-slate-900 dark:text-white focus:outline-none focus:ring-2 focus:ring-brand-500">
+                                </div>
+                            </div>
+
+                            <div>
+                                <label for="cust-address" class="block text-xs font-bold uppercase text-slate-600 dark:text-slate-300 mb-1">Alamat Pengiriman / Hotel / Catatan</label>
+                                <textarea id="cust-address" rows="2" placeholder="Contoh: Kirim ke Hotel Pangeran Pekanbaru / Ambil langsung jam 4 sore" class="w-full px-4 py-3 rounded-xl bg-slate-50 dark:bg-slate-800 border border-slate-200 dark:border-slate-700 text-sm text-slate-900 dark:text-white focus:outline-none focus:ring-2 focus:ring-brand-500"></textarea>
+                            </div>
+
+                            <button type="submit" class="w-full flex items-center justify-center gap-2 bg-emerald-600 hover:bg-emerald-700 text-white font-extrabold py-4 px-6 rounded-2xl shadow-lg hover:shadow-xl transition-all transform hover:-translate-y-0.5">
+                                <i class="fa-brands fa-whatsapp text-xl"></i>
+                                <span>Kirim Pesanan ke WhatsApp Sekarang</span>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= FOOTER ================= -->
+    <footer class="bg-slate-900 dark:bg-slate-950 text-slate-300 pt-14 pb-10 border-t border-slate-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-12 gap-10 pb-10 border-b border-slate-800">
+                
+                <!-- Brand Info -->
+                <div class="md:col-span-5 space-y-4">
+                    <div class="flex items-center gap-3">
+                        <div class="relative w-11 h-11 rounded-2xl bg-gradient-to-br from-slate-900 via-amber-950 to-sky-950 p-1 flex items-center justify-center border border-amber-400/50 shadow-md">
+                            <svg class="w-9 h-9" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M32 52 L11 29 C8 24, 12 17, 18 20 L32 46 Z" fill="#F59E0B" stroke="#FEF3C7" stroke-width="1"/>
+                                <path d="M32 52 L18 19 C17 13, 23 9, 27 14 L32 46 Z" fill="#FBBF24" stroke="#FEF3C7" stroke-width="1"/>
+                                <path d="M32 52 L27 13 C28 7, 36 7, 37 13 L32 52 Z" fill="#FEF08A" stroke="#FEF3C7" stroke-width="1.2"/>
+                                <path d="M32 52 L37 14 C41 9, 47 13, 46 19 L32 46 Z" fill="#FBBF24" stroke="#FEF3C7" stroke-width="1"/>
+                                <path d="M32 52 L46 20 C52 17, 56 24, 53 29 L32 52 Z" fill="#F59E0B" stroke="#FEF3C7" stroke-width="1"/>
+                                <path d="M22 46 C26 43, 38 43, 42 46 L38 55 C35 57, 29 57, 26 55 Z" fill="#B45309" stroke="#FDE68A" stroke-width="1.2"/>
+                                <g transform="translate(46, 15)">
+                                    <circle cx="0" cy="0" r="9" fill="#0F172A" stroke="#38BDF8" stroke-width="1.2"/>
+                                    <path d="M0 -6 V6 M-6 0 H6 M-4 -4 L4 4 M-4 4 L4 -4" stroke="#E0F2FE" stroke-width="1.5" stroke-linecap="round"/>
+                                </g>
+                            </svg>
+                        </div>
+                        <div>
+                            <span class="font-serif font-extrabold text-2xl text-white block leading-none">
+                                Pisang Kipas <span class="text-brand-400">MM</span>
+                            </span>
+                            <span class="text-[10px] font-bold uppercase tracking-widest text-amber-400 flex items-center gap-1 mt-0.5">
+                                <i class="fa-regular fa-snowflake text-sky-400"></i> Oleh-Oleh Khas Pekanbaru
+                            </span>
+                        </div>
+                    </div>
+                    <p class="text-sm text-slate-400 max-w-sm leading-relaxed">
+                        Pelopor oleh-oleh khas Pekanbaru berkualitas premium dalam kemasan <em>frozen</em> yang higienis, renyah, dan praktis dibawa ke seluruh Indonesia.
+                    </p>
+                    <div class="flex items-center gap-3 pt-1">
+                        <a href="https://www.instagram.com/pisangkipasmm" target="_blank" rel="noopener noreferrer" aria-label="Instagram ResmiPisang Kipas MM" title="Instagram Toko @pisangkipasmm" class="px-3.5 h-10 rounded-xl bg-slate-800 hover:bg-pink-600 text-white flex items-center gap-2 text-xs font-bold transition-colors">
+                            <i class="fa-brands fa-instagram text-base"></i>
+                            <span>@pisangkipasmm</span>
+                        </a>
+                        <a href="https://www.instagram.com/sucitesa" target="_blank" rel="noopener noreferrer" aria-label="Instagram Owner @sucitesa" title="Instagram Owner @sucitesa" class="px-3.5 h-10 rounded-xl bg-slate-800 hover:bg-purple-600 text-white flex items-center gap-2 text-xs font-bold transition-colors">
+                            <i class="fa-brands fa-instagram text-base"></i>
+                            <span>Owner @sucitesa</span>
+                        </a>
+                        <button onclick="orderDirectWA('Oleh-Oleh Khas Pekanbaru Pisang Kipas MM')" aria-label="WhatsApp" title="Chat WhatsApp" class="w-10 h-10 rounded-xl bg-slate-800 hover:bg-emerald-600 text-white flex items-center justify-center transition-colors">
+                            <i class="fa-brands fa-whatsapp text-base"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Quick Links -->
+                <div class="md:col-span-3 space-y-3">
+                    <h4 class="font-bold text-white uppercase tracking-wider text-xs">Navigasi Cepat</h4>
+                    <ul class="space-y-2 text-sm text-slate-400">
+                        <li><a href="#beranda" class="hover:text-brand-400 transition">Beranda</a></li>
+                        <li><a href="#tentang" class="hover:text-brand-400 transition">✨ Kenapa Wajib Coba?</a></li>
+                        <li><a href="#menu" class="hover:text-brand-400 transition">Menu Produk Frozen</a></li>
+                        <li><a href="#cara-saji" class="hover:text-brand-400 transition">Cara Penyajian</a></li>
+                        <li><a href="#lokasi" class="hover:text-brand-400 transition">Lokasi Koordinat Maps</a></li>
+                        <li><a href="#kontak" class="hover:text-brand-400 transition">Kontak & Sosial Media</a></li>
+                    </ul>
+                </div>
+
+                <!-- Produk Unggulan -->
+                <div class="md:col-span-4 space-y-3">
+                    <h4 class="font-bold text-white uppercase tracking-wider text-xs">Menu Promo Oleh-Oleh Pekanbaru</h4>
+                    <ul class="space-y-2 text-xs sm:text-sm text-slate-400">
+                        <li class="flex items-center justify-between bg-slate-800/60 px-3.5 py-2 rounded-xl">
+                            <span>🍌 Pisang Kipas Mini (14 Pcs)</span>
+                            <div>
+                                <span class="text-[11px] line-through text-slate-500 mr-1">40K</span>
+                                <span class="text-brand-400 font-bold">Rp 30.000</span>
+                            </div>
+                        </li>
+                        <li class="flex items-center justify-between bg-slate-800/60 px-3.5 py-2 rounded-xl">
+                            <span>🍌 Pisang Kipas Normal (10 Pcs)</span>
+                            <div>
+                                <span class="text-[11px] line-through text-slate-500 mr-1">45K</span>
+                                <span class="text-brand-400 font-bold">Rp 30.000</span>
+                            </div>
+                        </li>
+                        <li class="flex items-center justify-between bg-slate-800/60 px-3.5 py-2 rounded-xl">
+                            <span>🍌 Pisang Kipas Jumbo (10 Pcs)</span>
+                            <div>
+                                <span class="text-[11px] line-through text-slate-500 mr-1">55K</span>
+                                <span class="text-brand-400 font-bold">Rp 35.000</span>
+                            </div>
+                        </li>
+                        <li class="flex items-center justify-between bg-slate-800/60 px-3.5 py-2 rounded-xl">
+                            <span>🍠 Ubi Frozen</span>
+                            <div>
+                                <span class="text-[11px] line-through text-slate-500 mr-1">20K</span>
+                                <span class="text-purple-400 font-bold">Rp 14.000</span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <div class="pt-8 flex flex-col sm:flex-row items-center justify-between text-xs text-slate-500 gap-4">
+                <p>&copy; <span id="year"></span> <strong>Pisang Kipas MM - Oleh-Oleh Khas Pekanbaru</strong>. Seluruh Hak Cipta Dilindungi.</p>
+                <p>Dibuat dengan <i class="fa-solid fa-heart text-rose-500 mx-1"></i> untuk Pecinta Kuliner Nusantara</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ================= FLOATING BACK TO TOP BUTTON (POJOK KANAN BAWAH) ================= -->
+    <button 
+        id="back-to-top" 
+        type="button" 
+        onclick="scrollToTop()" 
+        aria-label="Kembali ke paling atas"
+        title="Kembali ke Atas"
+        class="fixed bottom-6 right-6 z-50 w-14 h-14 rounded-2xl bg-gradient-to-tr from-brand-600 to-amber-500 hover:from-brand-500 hover:to-amber-400 text-white shadow-glow flex flex-col items-center justify-center transition-all duration-300 opacity-0 translate-y-10 pointer-events-none focus:outline-none border-2 border-white dark:border-slate-800 group"
+    >
+        <i class="fa-solid fa-arrow-up text-lg group-hover:-translate-y-0.5 transition-transform"></i>
+        <span class="text-[9px] font-extrabold uppercase tracking-tighter leading-none mt-0.5">Atas</span>
+    </button>
+
+    <!-- ================= TOAST / NOTIFICATION MODAL FOR AUTO CHAT PREVIEW ================= -->
+    <div id="wa-toast" class="fixed bottom-24 right-6 z-50 max-w-sm bg-white dark:bg-slate-900 border-2 border-emerald-500 rounded-2xl shadow-2xl p-4 transition-all duration-300 opacity-0 translate-y-6 pointer-events-none">
+        <div class="flex items-start gap-3">
+            <div class="w-10 h-10 rounded-xl bg-emerald-500 text-white flex items-center justify-center text-xl flex-shrink-0">
+                <i class="fa-brands fa-whatsapp"></i>
+            </div>
+            <div class="flex-1 text-xs">
+                <p class="font-extrabold text-slate-900 dark:text-white text-sm">Mengarahkan ke WhatsApp...</p>
+                <p id="wa-toast-text" class="text-slate-600 dark:text-slate-300 mt-1 line-clamp-3 italic"></p>
+            </div>
+        </div>
+    </div>
+
+    <!-- ================= JAVASCRIPT LOGIC ================= -->
+    <script>
+        // Default WhatsApp Number: +62 853-7432-1474
+        let targetWANumber = '6285374321474';
+
+        // Set current year in footer
+        document.getElementById('year').textContent = new Date().getFullYear();
+
+        // Format phone number nicely as +62 853-7432-1474
+        function formatPhoneDisplay(cleanNum) {
+            if (cleanNum === '6285374321474') {
+                return '+62 853-7432-1474';
+            }
+            if (cleanNum.startsWith('62') && cleanNum.length >= 11) {
+                const rest = cleanNum.substring(2);
+                const part1 = rest.substring(0, 3);
+                const part2 = rest.substring(3, 7);
+                const part3 = rest.substring(7);
+                return `+62 ${part1}-${part2}-${part3}`;
+            }
+            return '+' + cleanNum;
+        }
+
+        // Initialize WA Number Display
+        function updateWADisplay() {
+            const inputEl = document.getElementById('custom-wa-input');
+            const displayEl = document.getElementById('display-wa-number');
+            if (inputEl) inputEl.value = targetWANumber;
+            if (displayEl) {
+                const clean = targetWANumber.replace(/\D/g, '');
+                displayEl.textContent = formatPhoneDisplay(clean);
+            }
+        }
+        updateWADisplay();
+
+        function saveCustomWANumber() {
+            const inputEl = document.getElementById('custom-wa-input');
+            let cleaned = inputEl.value.replace(/\D/g, '');
+            if (cleaned.startsWith('0')) {
+                cleaned = '62' + cleaned.substring(1);
+            }
+            if (cleaned.length < 9) {
+                showToast('Nomor WhatsApp tidak valid, mohon periksa kembali.');
+                return;
+            }
+            targetWANumber = cleaned;
+            localStorage.setItem('mm_wa_number', targetWANumber);
+            updateWADisplay();
+            showToast('Nomor WhatsApp tujuan berhasil diperbarui ke ' + formatPhoneDisplay(targetWANumber));
+        }
+
+        // ================= DARK MODE LOGIC =================
+        const themeToggleBtn = document.getElementById('theme-toggle');
+        const sunIcon = document.getElementById('theme-icon-sun');
+        const moonIcon = document.getElementById('theme-icon-moon');
+
+        function applyTheme(isDark) {
+            if (isDark) {
+                document.documentElement.classList.add('dark');
+                sunIcon.classList.remove('hidden');
+                moonIcon.classList.add('hidden');
+            } else {
+                document.documentElement.classList.remove('dark');
+                sunIcon.classList.add('hidden');
+                moonIcon.classList.remove('hidden');
+            }
+        }
+
+        // Check saved preference or system preference
+        const savedTheme = localStorage.getItem('mm_theme');
+        const systemPrefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+        applyTheme(savedTheme === 'dark' || (!savedTheme && systemPrefersDark));
+
+        themeToggleBtn.addEventListener('click', () => {
+            const isCurrentlyDark = document.documentElement.classList.contains('dark');
+            const nextDark = !isCurrentlyDark;
+            applyTheme(nextDark);
+            localStorage.setItem('mm_theme', nextDark ? 'dark' : 'light');
+        });
+
+        // ================= MOBILE HAMBURGER MENU LOGIC =================
+        const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+        const bar1 = document.getElementById('bar-1');
+        const bar2 = document.getElementById('bar-2');
+        const bar3 = document.getElementById('bar-3');
+        let isMobileMenuOpen = false;
+
+        function toggleMobileMenu(forceClose = false) {
+            isMobileMenuOpen = forceClose ? false : !isMobileMenuOpen;
+            mobileMenuBtn.setAttribute('aria-expanded', isMobileMenuOpen);
+
+            if (isMobileMenuOpen) {
+                mobileMenu.classList.remove('hidden');
+                bar1.classList.add('rotate-45', 'translate-x-1');
+                bar2.classList.add('opacity-0');
+                bar3.classList.add('-rotate-45', 'translate-x-1');
+            } else {
+                mobileMenu.classList.add('hidden');
+                bar1.classList.remove('rotate-45', 'translate-x-1');
+                bar2.classList.remove('opacity-0');
+                bar3.classList.remove('-rotate-45', 'translate-x-1');
+            }
+        }
+
+        mobileMenuBtn.addEventListener('click', () => toggleMobileMenu());
+
+        // Close mobile menu when clicking a link
+        document.querySelectorAll('.mobile-nav-link').forEach(link => {
+            link.addEventListener('click', () => toggleMobileMenu(true));
+        });
+
+        // ================= MINIMIZE NAVBAR TO RIGHT CORNER LOGIC =================
+        const navbarEl = document.getElementById('navbar');
+        const minimizedPillEl = document.getElementById('minimized-nav-pill');
+
+        function toggleMinimizeNavbar(minimize) {
+            if (minimize) {
+                toggleMobileMenu(true);
+                navbarEl.classList.add('nav-minimized');
+                minimizedPillEl.classList.remove('translate-x-[130%]', 'opacity-0', 'pointer-events-none');
+                minimizedPillEl.classList.add('translate-x-0', 'opacity-100');
+            } else {
+                navbarEl.classList.remove('nav-minimized');
+                minimizedPillEl.classList.add('translate-x-[130%]', 'opacity-0', 'pointer-events-none');
+                minimizedPillEl.classList.remove('translate-x-0', 'opacity-100');
+            }
+        }
+
+        // ================= QUANTITY SELECTOR LOGIC =================
+        function updateQty(inputId, delta) {
+            const input = document.getElementById(inputId);
+            if (!input) return;
+            let current = parseInt(input.value, 10) || 1;
+            current = Math.max(1, Math.min(99, current + delta));
+            input.value = current;
+        }
+
+        // Format Rupiah helper
+        function formatRupiah(num) {
+            return 'Rp ' + num.toString().replace(/\B(?=(\d{3})+(?!\d))/g, '.');
+        }
+
+        // ================= CATEGORY FILTER TABS LOGIC =================
+        function filterMenu(category) {
+            const cards = document.querySelectorAll('.menu-card');
+            const tabs = {
+                all: document.getElementById('tab-all'),
+                pisang: document.getElementById('tab-pisang'),
+                ubi: document.getElementById('tab-ubi')
+            };
+
+            // Reset tab styles
+            Object.values(tabs).forEach(tab => {
+                if (!tab) return;
+                tab.className = 'menu-tab px-5 py-2.5 rounded-2xl font-bold text-xs sm:text-sm transition-all duration-300 bg-white dark:bg-slate-900 text-slate-700 dark:text-slate-200 border border-amber-200 dark:border-slate-700 hover:border-brand-500';
+            });
+
+            // Highlight active tab
+            if (tabs[category]) {
+                tabs[category].className = 'menu-tab active-tab px-5 py-2.5 rounded-2xl font-extrabold text-xs sm:text-sm transition-all duration-300 bg-gradient-to-r from-brand-500 to-amber-600 text-white shadow-glow';
+            }
+
+            // Show/hide cards
+            cards.forEach(card => {
+                const cardCat = card.getAttribute('data-category');
+                if (category === 'all' || cardCat === category) {
+                    card.classList.remove('hidden');
+                } else {
+                    card.classList.add('hidden');
+                }
+            });
+        }
+
+        // ================= WHATSAPP AUTO ORDER LOGIC =================
+        function showToast(message) {
+            const toast = document.getElementById('wa-toast');
+            const toastText = document.getElementById('wa-toast-text');
+            toastText.textContent = message;
+            toast.classList.remove('opacity-0', 'translate-y-6', 'pointer-events-none');
+            setTimeout(() => {
+                toast.classList.add('opacity-0', 'translate-y-6', 'pointer-events-none');
+            }, 3500);
+        }
+
+        function orderProduct(productName, discountPrice, normalPrice, qtyInputId) {
+            let qty = 1;
+            if (qtyInputId) {
+                const qtyEl = document.getElementById(qtyInputId);
+                if (qtyEl) qty = parseInt(qtyEl.value, 10) || 1;
+            }
+            const totalDiscountPrice = discountPrice * qty;
+            const totalSavings = (normalPrice - discountPrice) * qty;
+
+            const autoMessage = 
+`Halo Admin *Pisang Kipas MM* 👋,
+Saya tertarik dan ingin memesan produk promo berikut:
+
+🍽️ *Nama Produk:* ${productName}
+📦 *Jumlah Pesanan:* ${qty} Pack
+🏷️ *Harga Promo:* ${formatRupiah(discountPrice)} / pack _(Harga Normal: ~${formatRupiah(normalPrice)}~)_
+💰 *Total Pembayaran:* ${formatRupiah(totalDiscountPrice)} *(Hemat ${formatRupiah(totalSavings)}!)*
+
+Mohon info ketersediaan stok dan detail pengirimannya ya. Terima kasih! 🙏`;
+
+            showToast(`"${autoMessage.substring(0, 90)}..."`);
+
+            const waUrl = `https://wa.me/${targetWANumber}?text=${encodeURIComponent(autoMessage)}`;
+            window.open(waUrl, '_blank', 'noopener,noreferrer');
+        }
+
+        function orderDirectWA(interestTopic) {
+            const autoMessage = 
+`Halo Admin *Pisang Kipas MM* 👋,
+Saya mengunjungi website Pisang Kipas MM dan ingin bertanya / memesan produk *${interestTopic}*. Mohon infonya ya, terima kasih! 🙏`;
+
+            showToast(`"${autoMessage}"`);
+            const waUrl = `https://wa.me/${targetWANumber}?text=${encodeURIComponent(autoMessage)}`;
+            window.open(waUrl, '_blank', 'noopener,noreferrer');
+        }
+
+        function submitQuickOrderForm(event) {
+            event.preventDefault();
+            const name = document.getElementById('cust-name').value.trim();
+            const product = document.getElementById('cust-product').value;
+            const qty = document.getElementById('cust-qty').value;
+            const address = document.getElementById('cust-address').value.trim() || '-';
+
+            const autoMessage = 
+`Halo Admin *Pisang Kipas MM* 👋,
+Berikut detail pesanan saya melalui Website:
+
+👤 *Nama Pemesan:* ${name}
+🍽️ *Menu Produk:* ${product}
+📦 *Jumlah:* ${qty} Pack
+📍 *Alamat / Catatan:* ${address}
+
+Mohon diproses pesanannya ya Kak. Terima kasih! 🙏`;
+
+            showToast(`Mengirim pesanan atas nama ${name} ke WhatsApp...`);
+            const waUrl = `https://wa.me/${targetWANumber}?text=${encodeURIComponent(autoMessage)}`;
+            window.open(waUrl, '_blank', 'noopener,noreferrer');
+        }
+
+        // ================= BACK TO TOP BUTTON LOGIC =================
+        const backToTopBtn = document.getElementById('back-to-top');
+
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 300) {
+                backToTopBtn.classList.remove('opacity-0', 'translate-y-10', 'pointer-events-none');
+                backToTopBtn.classList.add('opacity-100', 'translate-y-0');
+            } else {
+                backToTopBtn.classList.add('opacity-0', 'translate-y-10', 'pointer-events-none');
+                backToTopBtn.classList.remove('opacity-100', 'translate-y-0');
+            }
+        });
+
+        function scrollToTop() {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        }
+    </script>
+</body>
+</html>
